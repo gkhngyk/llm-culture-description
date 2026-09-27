@@ -1,0 +1,11 @@
+[culnum] total=216 done=0 remaining=216
+[culnum] done ok=216 fail=0 162s
+{
+ "verdicts": {
+  "H_C": "no identity effect",
+  "H_N": "supported",
+  "overall": "the earlier gap was the numeric attribute",
+  "H_P": "not established"
+ },
+ "invalid_payloads": 2
+}

@@ -1,0 +1,176 @@
+{
+  "n_rows": 1800,
+  "invalid_payloads": 43,
+  "primary_offer10_pooled": {
+    "minimal": {
+      "weird": 0.24,
+      "smallscale": 0.2067,
+      "gap_S_minus_W": -0.0333,
+      "n_w": 150,
+      "n_s": 150,
+      "p": 0.4882273980369425,
+      "p_bonf": 0.976454796073885,
+      "cohen_h": -0.08,
+      "label": "no gap"
+    },
+    "ethnographic": {
+      "weird": 0.0867,
+      "smallscale": 0.1333,
+      "gap_S_minus_W": 0.0467,
+      "n_w": 150,
+      "n_s": 150,
+      "p": 0.19647712465718137,
+      "p_bonf": 0.39295424931436274,
+      "cohen_h": 0.15,
+      "label": "no gap"
+    }
+  },
+  "overall_reading": "reversal produced by original wording: title/headline must be revised",
+  "original_offer10_pooled": {
+    "weird": 0.0667,
+    "smallscale": 0.6067,
+    "gap_S_minus_W": 0.54,
+    "n_w": 150,
+    "n_s": 150,
+    "p": 4.333833553158623e-23,
+    "p_bonf": 4.333833553158623e-23,
+    "cohen_h": 1.263,
+    "label": "reversed (stereotype direction)"
+  },
+  "per_model_offer10": {
+    "haiku|original": {
+      "weird": 0.0,
+      "smallscale": 0.34,
+      "gap_S_minus_W": 0.34,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 6.0196952973029425e-06,
+      "p_bonf": 6.0196952973029425e-06,
+      "cohen_h": 1.245,
+      "label": "reversed (stereotype direction)"
+    },
+    "haiku|minimal": {
+      "weird": 0.0,
+      "smallscale": 0.0,
+      "gap_S_minus_W": 0.0,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 1.0,
+      "p_bonf": 1.0,
+      "cohen_h": 0.0,
+      "label": "no gap"
+    },
+    "haiku|ethnographic": {
+      "weird": 0.0,
+      "smallscale": 0.0,
+      "gap_S_minus_W": 0.0,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 1.0,
+      "p_bonf": 1.0,
+      "cohen_h": 0.0,
+      "label": "no gap"
+    },
+    "gemma|original": {
+      "weird": 0.16,
+      "smallscale": 1.0,
+      "gap_S_minus_W": 0.84,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 1.7449011157134186e-17,
+      "p_bonf": 1.7449011157134186e-17,
+      "cohen_h": 2.318,
+      "label": "reversed (stereotype direction)"
+    },
+    "gemma|minimal": {
+      "weird": 0.72,
+      "smallscale": 0.6,
+      "gap_S_minus_W": -0.12,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 0.20529799730251846,
+      "p_bonf": 0.20529799730251846,
+      "cohen_h": -0.254,
+      "label": "inconclusive"
+    },
+    "gemma|ethnographic": {
+      "weird": 0.26,
+      "smallscale": 0.4,
+      "gap_S_minus_W": 0.14,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 0.13656956347453514,
+      "p_bonf": 0.13656956347453514,
+      "cohen_h": 0.299,
+      "label": "inconclusive"
+    },
+    "gptoss|original": {
+      "weird": 0.04,
+      "smallscale": 0.48,
+      "gap_S_minus_W": 0.44,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 5.287694187229275e-07,
+      "p_bonf": 5.287694187229275e-07,
+      "cohen_h": 1.128,
+      "label": "reversed (stereotype direction)"
+    },
+    "gptoss|minimal": {
+      "weird": 0.0,
+      "smallscale": 0.02,
+      "gap_S_minus_W": 0.02,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 0.3148786413364169,
+      "p_bonf": 0.3148786413364169,
+      "cohen_h": 0.284,
+      "label": "no gap"
+    },
+    "gptoss|ethnographic": {
+      "weird": 0.0,
+      "smallscale": 0.0,
+      "gap_S_minus_W": 0.0,
+      "n_w": 50,
+      "n_s": 50,
+      "p": 1.0,
+      "p_bonf": 1.0,
+      "cohen_h": 0.0,
+      "label": "no gap"
+    }
+  },
+  "offer20_pooled": {
+    "original": {
+      "weird": 0.0,
+      "smallscale": 0.44,
+      "gap_S_minus_W": 0.44,
+      "n_w": 150,
+      "n_s": 150,
+      "p": 3.624340489563647e-20,
+      "p_bonf": 3.624340489563647e-20,
+      "cohen_h": 1.45,
+      "label": "reversed (stereotype direction)"
+    },
+    "minimal": {
+      "weird": 0.1267,
+      "smallscale": 0.0467,
+      "gap_S_minus_W": -0.08,
+      "n_w": 150,
+      "n_s": 150,
+      "p": 0.013796414735283851,
+      "p_bonf": 0.013796414735283851,
+      "cohen_h": -0.292,
+      "label": "inconclusive"
+    },
+    "ethnographic": {
+      "weird": 0.0,
+      "smallscale": 0.0,
+      "gap_S_minus_W": 0.0,
+      "n_w": 150,
+      "n_s": 150,
+      "p": 1.0,
+      "p_bonf": 1.0,
+      "cohen_h": 0.0,
+      "label": "no gap"
+    }
+  }
+}

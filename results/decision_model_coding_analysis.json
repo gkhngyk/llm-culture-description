@@ -1,0 +1,359 @@
+{
+  "n_texts": 1620,
+  "n_calls": 6480,
+  "cost_usd": 0.18469,
+  "coder_snapshots": [
+    "respan/span-01-20260925",
+    "typesafe/jev-1.13-20260917"
+  ],
+  "span_vs_jev_agreement": {
+    "survival_need": {
+      "kappa@0.5": 0.508,
+      "spearman": 0.702,
+      "span_prev": 0.215,
+      "jev_prev": 0.399
+    },
+    "kin_community": {
+      "kappa@0.5": 0.952,
+      "spearman": 0.85,
+      "span_prev": 0.362,
+      "jev_prev": 0.381
+    },
+    "game_theory": {
+      "kappa@0.5": 0.484,
+      "spearman": 0.873,
+      "span_prev": 0.681,
+      "jev_prev": 0.865
+    },
+    "anti_spite": {
+      "kappa@0.5": 0.759,
+      "spearman": 0.867,
+      "span_prev": 0.278,
+      "jev_prev": 0.355
+    },
+    "fairness_eval": {
+      "kappa@0.5": 0.829,
+      "spearman": 0.93,
+      "span_prev": 0.484,
+      "jev_prev": 0.555
+    },
+    "equal_split_norm": {
+      "kappa@0.5": 0.932,
+      "spearman": 0.704,
+      "span_prev": 0.155,
+      "jev_prev": 0.158
+    },
+    "anonymity": {
+      "kappa@0.5": 0.727,
+      "spearman": 0.926,
+      "span_prev": 0.612,
+      "jev_prev": 0.735
+    }
+  },
+  "arm_separation": {
+    "blind60|respan/span-01|survival_need": {
+      "weird_prev": 0.133,
+      "smallscale_prev": 0.567,
+      "auc_weird_vs_small": 0.167
+    },
+    "blind60|respan/span-01|kin_community": {
+      "weird_prev": 0.267,
+      "smallscale_prev": 0.833,
+      "auc_weird_vs_small": 0.071
+    },
+    "blind60|respan/span-01|game_theory": {
+      "weird_prev": 0.933,
+      "smallscale_prev": 0.6,
+      "auc_weird_vs_small": 0.851
+    },
+    "blind60|respan/span-01|anti_spite": {
+      "weird_prev": 0.733,
+      "smallscale_prev": 0.667,
+      "auc_weird_vs_small": 0.604
+    },
+    "blind60|respan/span-01|fairness_eval": {
+      "weird_prev": 0.867,
+      "smallscale_prev": 0.633,
+      "auc_weird_vs_small": 0.738
+    },
+    "blind60|respan/span-01|equal_split_norm": {
+      "weird_prev": 0.2,
+      "smallscale_prev": 0.2,
+      "auc_weird_vs_small": 0.534
+    },
+    "blind60|respan/span-01|anonymity": {
+      "weird_prev": 0.6,
+      "smallscale_prev": 0.633,
+      "auc_weird_vs_small": 0.449
+    },
+    "blind60|typesafe/jev-1.13|survival_need": {
+      "weird_prev": 0.167,
+      "smallscale_prev": 0.8,
+      "auc_weird_vs_small": 0.138
+    },
+    "blind60|typesafe/jev-1.13|kin_community": {
+      "weird_prev": 0.267,
+      "smallscale_prev": 0.833,
+      "auc_weird_vs_small": 0.054
+    },
+    "blind60|typesafe/jev-1.13|game_theory": {
+      "weird_prev": 1.0,
+      "smallscale_prev": 0.833,
+      "auc_weird_vs_small": 0.937
+    },
+    "blind60|typesafe/jev-1.13|anti_spite": {
+      "weird_prev": 0.8,
+      "smallscale_prev": 0.667,
+      "auc_weird_vs_small": 0.744
+    },
+    "blind60|typesafe/jev-1.13|fairness_eval": {
+      "weird_prev": 1.0,
+      "smallscale_prev": 0.667,
+      "auc_weird_vs_small": 0.771
+    },
+    "blind60|typesafe/jev-1.13|equal_split_norm": {
+      "weird_prev": 0.2,
+      "smallscale_prev": 0.2,
+      "auc_weird_vs_small": 0.716
+    },
+    "blind60|typesafe/jev-1.13|anonymity": {
+      "weird_prev": 0.6,
+      "smallscale_prev": 0.8,
+      "auc_weird_vs_small": 0.461
+    },
+    "blind60_red|respan/span-01|survival_need": {
+      "weird_prev": 0.067,
+      "smallscale_prev": 0.5,
+      "auc_weird_vs_small": 0.159
+    },
+    "blind60_red|respan/span-01|kin_community": {
+      "weird_prev": 0.267,
+      "smallscale_prev": 0.2,
+      "auc_weird_vs_small": 0.298
+    },
+    "blind60_red|respan/span-01|game_theory": {
+      "weird_prev": 0.967,
+      "smallscale_prev": 0.633,
+      "auc_weird_vs_small": 0.887
+    },
+    "blind60_red|respan/span-01|anti_spite": {
+      "weird_prev": 0.767,
+      "smallscale_prev": 0.667,
+      "auc_weird_vs_small": 0.617
+    },
+    "blind60_red|respan/span-01|fairness_eval": {
+      "weird_prev": 0.967,
+      "smallscale_prev": 0.7,
+      "auc_weird_vs_small": 0.73
+    },
+    "blind60_red|respan/span-01|equal_split_norm": {
+      "weird_prev": 0.2,
+      "smallscale_prev": 0.2,
+      "auc_weird_vs_small": 0.606
+    },
+    "blind60_red|respan/span-01|anonymity": {
+      "weird_prev": 0.6,
+      "smallscale_prev": 0.633,
+      "auc_weird_vs_small": 0.457
+    },
+    "blind60_red|typesafe/jev-1.13|survival_need": {
+      "weird_prev": 0.167,
+      "smallscale_prev": 0.733,
+      "auc_weird_vs_small": 0.139
+    },
+    "blind60_red|typesafe/jev-1.13|kin_community": {
+      "weird_prev": 0.267,
+      "smallscale_prev": 0.333,
+      "auc_weird_vs_small": 0.225
+    },
+    "blind60_red|typesafe/jev-1.13|game_theory": {
+      "weird_prev": 1.0,
+      "smallscale_prev": 0.967,
+      "auc_weird_vs_small": 0.908
+    },
+    "blind60_red|typesafe/jev-1.13|anti_spite": {
+      "weird_prev": 0.833,
+      "smallscale_prev": 0.7,
+      "auc_weird_vs_small": 0.738
+    },
+    "blind60_red|typesafe/jev-1.13|fairness_eval": {
+      "weird_prev": 1.0,
+      "smallscale_prev": 0.7,
+      "auc_weird_vs_small": 0.767
+    },
+    "blind60_red|typesafe/jev-1.13|equal_split_norm": {
+      "weird_prev": 0.2,
+      "smallscale_prev": 0.2,
+      "auc_weird_vs_small": 0.749
+    },
+    "blind60_red|typesafe/jev-1.13|anonymity": {
+      "weird_prev": 0.6,
+      "smallscale_prev": 0.8,
+      "auc_weird_vs_small": 0.428
+    },
+    "primary|respan/span-01|survival_need": {
+      "weird_prev": 0.081,
+      "smallscale_prev": 0.332,
+      "auc_weird_vs_small": 0.374
+    },
+    "primary|respan/span-01|kin_community": {
+      "weird_prev": 0.052,
+      "smallscale_prev": 0.668,
+      "auc_weird_vs_small": 0.132
+    },
+    "primary|respan/span-01|game_theory": {
+      "weird_prev": 0.833,
+      "smallscale_prev": 0.513,
+      "auc_weird_vs_small": 0.733
+    },
+    "primary|respan/span-01|anti_spite": {
+      "weird_prev": 0.264,
+      "smallscale_prev": 0.224,
+      "auc_weird_vs_small": 0.517
+    },
+    "primary|respan/span-01|fairness_eval": {
+      "weird_prev": 0.577,
+      "smallscale_prev": 0.341,
+      "auc_weird_vs_small": 0.642
+    },
+    "primary|respan/span-01|equal_split_norm": {
+      "weird_prev": 0.183,
+      "smallscale_prev": 0.12,
+      "auc_weird_vs_small": 0.573
+    },
+    "primary|respan/span-01|anonymity": {
+      "weird_prev": 0.696,
+      "smallscale_prev": 0.528,
+      "auc_weird_vs_small": 0.597
+    },
+    "primary|typesafe/jev-1.13|survival_need": {
+      "weird_prev": 0.289,
+      "smallscale_prev": 0.499,
+      "auc_weird_vs_small": 0.287
+    },
+    "primary|typesafe/jev-1.13|kin_community": {
+      "weird_prev": 0.052,
+      "smallscale_prev": 0.703,
+      "auc_weird_vs_small": 0.11
+    },
+    "primary|typesafe/jev-1.13|game_theory": {
+      "weird_prev": 0.92,
+      "smallscale_prev": 0.796,
+      "auc_weird_vs_small": 0.804
+    },
+    "primary|typesafe/jev-1.13|anti_spite": {
+      "weird_prev": 0.375,
+      "smallscale_prev": 0.272,
+      "auc_weird_vs_small": 0.555
+    },
+    "primary|typesafe/jev-1.13|fairness_eval": {
+      "weird_prev": 0.665,
+      "smallscale_prev": 0.399,
+      "auc_weird_vs_small": 0.638
+    },
+    "primary|typesafe/jev-1.13|equal_split_norm": {
+      "weird_prev": 0.195,
+      "smallscale_prev": 0.115,
+      "auc_weird_vs_small": 0.633
+    },
+    "primary|typesafe/jev-1.13|anonymity": {
+      "weird_prev": 0.749,
+      "smallscale_prev": 0.725,
+      "auc_weird_vs_small": 0.611
+    }
+  },
+  "loo_arm_accuracy_from_themes": {
+    "blind60|respan/span-01": 0.85,
+    "blind60|typesafe/jev-1.13": 0.9,
+    "blind60_red|respan/span-01": 0.767,
+    "blind60_red|typesafe/jev-1.13": 0.85,
+    "primary|respan/span-01": 0.835,
+    "primary|typesafe/jev-1.13": 0.832
+  },
+  "mean_p_by_gemma_cluster": {
+    "respan/span-01|survival_need": {
+      "Academic Game Theory Rationalism": 0.189,
+      "Community Reciprocity & Fairness": 0.401,
+      "Equitable Outcome Optimization": 0.058,
+      "Kinship & Survival Pragmatism": 0.562
+    },
+    "respan/span-01|kin_community": {
+      "Academic Game Theory Rationalism": 0.296,
+      "Community Reciprocity & Fairness": 0.802,
+      "Equitable Outcome Optimization": 0.032,
+      "Kinship & Survival Pragmatism": 0.786
+    },
+    "respan/span-01|game_theory": {
+      "Academic Game Theory Rationalism": 0.87,
+      "Community Reciprocity & Fairness": 0.387,
+      "Equitable Outcome Optimization": 0.792,
+      "Kinship & Survival Pragmatism": 0.62
+    },
+    "respan/span-01|anti_spite": {
+      "Academic Game Theory Rationalism": 0.691,
+      "Community Reciprocity & Fairness": 0.618,
+      "Equitable Outcome Optimization": 0.804,
+      "Kinship & Survival Pragmatism": 0.625
+    },
+    "respan/span-01|fairness_eval": {
+      "Academic Game Theory Rationalism": 0.819,
+      "Community Reciprocity & Fairness": 0.957,
+      "Equitable Outcome Optimization": 0.957,
+      "Kinship & Survival Pragmatism": 0.518
+    },
+    "respan/span-01|equal_split_norm": {
+      "Academic Game Theory Rationalism": 0.065,
+      "Community Reciprocity & Fairness": 0.952,
+      "Equitable Outcome Optimization": 0.952,
+      "Kinship & Survival Pragmatism": 0.085
+    },
+    "respan/span-01|anonymity": {
+      "Academic Game Theory Rationalism": 0.591,
+      "Community Reciprocity & Fairness": 0.605,
+      "Equitable Outcome Optimization": 0.491,
+      "Kinship & Survival Pragmatism": 0.623
+    },
+    "typesafe/jev-1.13|survival_need": {
+      "Academic Game Theory Rationalism": 0.234,
+      "Community Reciprocity & Fairness": 0.439,
+      "Equitable Outcome Optimization": 0.154,
+      "Kinship & Survival Pragmatism": 0.757
+    },
+    "typesafe/jev-1.13|kin_community": {
+      "Academic Game Theory Rationalism": 0.285,
+      "Community Reciprocity & Fairness": 0.86,
+      "Equitable Outcome Optimization": 0.031,
+      "Kinship & Survival Pragmatism": 0.811
+    },
+    "typesafe/jev-1.13|game_theory": {
+      "Academic Game Theory Rationalism": 0.939,
+      "Community Reciprocity & Fairness": 0.559,
+      "Equitable Outcome Optimization": 0.911,
+      "Kinship & Survival Pragmatism": 0.75
+    },
+    "typesafe/jev-1.13|anti_spite": {
+      "Academic Game Theory Rationalism": 0.792,
+      "Community Reciprocity & Fairness": 0.63,
+      "Equitable Outcome Optimization": 0.882,
+      "Kinship & Survival Pragmatism": 0.629
+    },
+    "typesafe/jev-1.13|fairness_eval": {
+      "Academic Game Theory Rationalism": 0.92,
+      "Community Reciprocity & Fairness": 0.979,
+      "Equitable Outcome Optimization": 0.979,
+      "Kinship & Survival Pragmatism": 0.558
+    },
+    "typesafe/jev-1.13|equal_split_norm": {
+      "Academic Game Theory Rationalism": 0.157,
+      "Community Reciprocity & Fairness": 0.95,
+      "Equitable Outcome Optimization": 0.97,
+      "Kinship & Survival Pragmatism": 0.074
+    },
+    "typesafe/jev-1.13|anonymity": {
+      "Academic Game Theory Rationalism": 0.637,
+      "Community Reciprocity & Fairness": 0.788,
+      "Equitable Outcome Optimization": 0.506,
+      "Kinship & Survival Pragmatism": 0.777
+    }
+  }
+}

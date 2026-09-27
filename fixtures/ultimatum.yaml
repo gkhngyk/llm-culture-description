@@ -1,0 +1,43 @@
+fixture: ultimatum_henrich_crosscultural
+source: Henrich et al. 2001 "In Search of Homo Economicus"
+version: 1.0
+paradigm: one-shot anonymous
+stake: 100
+offer_levels: [10, 20, 30, 40, 50]
+pairs_per_cell: 20
+arms: [weird, smallscale]
+roles: [proposer, responder]
+
+human_anchor:
+  weird:
+    rejection_rate_lt20: [0.40, 0.60]
+    mean_accepted_offer: [0.40, 0.48]
+    modal_offer: [0.40, 0.50]
+  smallscale:
+    rejection_rate_lt20: [0.05, 0.25]
+    mean_accepted_offer: [0.25, 0.35]
+
+baseline_gate:
+  weird:
+    rejection_lt20_range: [0.30, 0.70]
+    rejection_4050_max: 0.15
+    mean_accepted_range: [0.30, 0.55]
+  smallscale:
+    rejection_lt20_range: [0.00, 0.40]
+  gap_min: 0.15
+  gap_p_max: 0.01
+  effect_size_min: 0.3  # Cohen's h
+
+forbidden_terms_in_profile:
+  - reject
+  - accept
+  - fair
+  - fairness
+  - strategic
+  - selfish
+  - prioritize
+  - maximize
+  - rational
+  - utility
+  - "economic theory"
+  - "ultimatum game"

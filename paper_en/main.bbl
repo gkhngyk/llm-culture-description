@@ -1,0 +1,146 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aher et~al.(2023)Aher, Arriaga, and Kalai]{aher2023}
+Gati~V. Aher, Rosa~I. Arriaga, and Adam~Tauman Kalai.
+\newblock Using large language models to simulate multiple humans and replicate
+  human subject studies.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning (ICML)}, volume 202 of \emph{PMLR}, pages 337--371, 2023.
+
+\bibitem[Argyle et~al.(2023)Argyle, Busby, Fulda, Gubler, Rytting, and
+  Wingate]{argyle2023}
+Lisa~P. Argyle, Ethan~C. Busby, Nancy Fulda, Joshua~R. Gubler, Christopher
+  Rytting, and David Wingate.
+\newblock Out of one, many: Using language models to simulate human samples.
+\newblock \emph{Political Analysis}, 31\penalty0 (3):\penalty0 337--351, 2023.
+\newblock \doi{10.1017/pan.2023.2}.
+
+\bibitem[Atari et~al.(2023)Atari, Xue, Park, Blasi, and
+  Henrich]{atari2023which}
+Mohammad Atari, Mona~J. Xue, Peter~S. Park, Dami{\'a}n Blasi, and Joseph
+  Henrich.
+\newblock Which humans?, 2023.
+\newblock URL \url{https://osf.io/preprints/psyarxiv/5b26t_v1}.
+\newblock PsyArXiv preprint.
+
+\bibitem[Binz and Schulz(2023)]{binz2023}
+Marcel Binz and Eric Schulz.
+\newblock Using cognitive psychology to understand {GPT-3}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 120\penalty0
+  (6):\penalty0 e2218523120, 2023.
+\newblock \doi{10.1073/pnas.2218523120}.
+
+\bibitem[Cheng et~al.(2023)Cheng, Piccardi, and Yang]{cheng2023compost}
+Myra Cheng, Tiziano Piccardi, and Diyi Yang.
+\newblock {CoMPosT}: Characterizing and evaluating caricature in {LLM}
+  simulations.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, 2023.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.669/}.
+
+\bibitem[Cherry et~al.(2002)Cherry, Frykblom, and Shogren]{cherry2002}
+Todd~L. Cherry, Peter Frykblom, and Jason~F. Shogren.
+\newblock Hardnose the dictator.
+\newblock \emph{American Economic Review}, 92\penalty0 (4):\penalty0
+  1218--1221, 2002.
+
+\bibitem[G{\"u}th et~al.(1982)G{\"u}th, Schmittberger, and Schwarze]{guth1982}
+Werner G{\"u}th, Rolf Schmittberger, and Bernd Schwarze.
+\newblock An experimental analysis of ultimatum bargaining.
+\newblock \emph{Journal of Economic Behavior \& Organization}, 3\penalty0
+  (4):\penalty0 367--388, 1982.
+\newblock \doi{10.1016/0167-2681(82)90011-7}.
+
+\bibitem[Henrich et~al.(2001)Henrich, Boyd, Bowles, Camerer, Fehr, Gintis, and
+  McElreath]{henrich2001}
+Joseph Henrich, Robert Boyd, Samuel Bowles, Colin Camerer, Ernst Fehr, Herbert
+  Gintis, and Richard McElreath.
+\newblock In search of {Homo Economicus}: Behavioral experiments in 15
+  small-scale societies.
+\newblock \emph{American Economic Review}, 91\penalty0 (2):\penalty0 73--78,
+  2001.
+\newblock \doi{10.1257/aer.91.2.73}.
+
+\bibitem[Henrich et~al.(2010)Henrich, Heine, and Norenzayan]{henrich2010}
+Joseph Henrich, Steven~J. Heine, and Ara Norenzayan.
+\newblock The weirdest people in the world?
+\newblock \emph{Behavioral and Brain Sciences}, 33\penalty0 (2--3):\penalty0
+  61--83, 2010.
+\newblock \doi{10.1017/S0140525X0999152X}.
+
+\bibitem[Hoffman et~al.(1994)Hoffman, McCabe, Shachat, and Smith]{hoffman1994}
+Elizabeth Hoffman, Kevin McCabe, Keith Shachat, and Vernon Smith.
+\newblock Preferences, property rights, and anonymity in bargaining games.
+\newblock \emph{Games and Economic Behavior}, 7\penalty0 (3):\penalty0
+  346--380, 1994.
+
+\bibitem[Horton et~al.(2023)Horton, Filippas, and Manning]{horton2023}
+John~J. Horton, Apostolos Filippas, and Benjamin~S. Manning.
+\newblock Large language models as simulated economic agents: What can we learn
+  from {Homo Silicus}?
+\newblock \emph{NBER Working Paper}, \penalty0 (31122), 2023.
+\newblock \doi{10.3386/w31122}.
+
+\bibitem[Hu and Collier(2024)]{hu2024persona}
+Tiancheng Hu and Nigel Collier.
+\newblock Quantifying the persona effect in {LLM} simulations.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, 2024.
+
+\bibitem[Mei et~al.(2024)Mei, Xie, Yuan, and Jackson]{mei2024}
+Qiaozhu Mei, Yutong Xie, Walter Yuan, and Matthew~O. Jackson.
+\newblock A {Turing} test of whether {AI} chatbots are behaviorally similar to
+  humans.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 121\penalty0
+  (9):\penalty0 e2313925121, 2024.
+\newblock \doi{10.1073/pnas.2313925121}.
+
+\bibitem[Oxoby and Spraggon(2008)]{oxoby2008}
+Robert~J. Oxoby and John Spraggon.
+\newblock Mine and yours: Property rights in dictator games.
+\newblock \emph{Journal of Economic Behavior \& Organization}, 65\penalty0
+  (3--4):\penalty0 703--713, 2008.
+
+\bibitem[Park et~al.(2023)Park, O'Brien, Cai, Morris, Liang, and
+  Bernstein]{park2023}
+Joon~Sung Park, Joseph~C. O'Brien, Carrie~J. Cai, Meredith~Ringel Morris, Percy
+  Liang, and Michael~S. Bernstein.
+\newblock Generative agents: Interactive simulacra of human behavior.
+\newblock In \emph{Proceedings of the 36th Annual ACM Symposium on User
+  Interface Software and Technology (UIST)}, pages 1--22, 2023.
+\newblock \doi{10.1145/3586183.3606763}.
+
+\bibitem[{Respan}(2026)]{respan2026span}
+{Respan}.
+\newblock Span-01: behavior scoring model, 2026.
+\newblock URL \url{https://openrouter.ai/respan/span-01}.
+\newblock Accessed via OpenRouter as \texttt{respan/span-01}, snapshot
+  20260925. Accessed September 2026.
+
+\bibitem[Sclar et~al.(2024)Sclar, Choi, Tsvetkov, and
+  Suhr]{sclar2024quantifying}
+Melanie Sclar, Yejin Choi, Yulia Tsvetkov, and Alane Suhr.
+\newblock Quantifying language models' sensitivity to spurious features in
+  prompt design or: How {I} learned to start worrying about prompt formatting.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[{TypeSafe AI}(2026)]{typesafe2026jev}
+{TypeSafe AI}.
+\newblock Jev 1.13: a system one structured decision model, 2026.
+\newblock URL \url{https://docs.typesafe.ai/concepts/system-one}.
+\newblock Accessed via OpenRouter as \texttt{typesafe/jev-1.13}, snapshot
+  20260917. Accessed September 2026.
+
+\bibitem[Wang et~al.(2025)Wang, Morgenstern, and Dickerson]{wang2025misportray}
+Angelina Wang, Jamie Morgenstern, and John~P. Dickerson.
+\newblock Large language models that replace human participants can harmfully
+  misportray and flatten identity groups.
+\newblock \emph{Nature Machine Intelligence}, 7:\penalty0 400--411, 2025.
+
+\end{thebibliography}

@@ -1,0 +1,195 @@
+FAIL {'model_key': 'gptoss', 'model_slug': 'openai/gpt-oss-120b', 'arm': 'weird', 'offer': 10, 'pair_idx': 27, 'cell': 'story_earned'}: 4 invalid payloads in a row: {'analysis': "We need to decide as a 19-year-old grad student, moderate social ties, low subsistence risk, fairness_salience 0.438 (moderate). The rule: if either objects, all fruit left. The other person took 90, gave me 10. I did half the work, so equal share would be 50 each. The division is unfair. But refusing would lose all fruit (including my 10). I have disposable income buffer $202, low subsistence risk, so losing 10 fruits (maybe some value) is not huge. Fairness salience moderate, so I care about fairness but not extremely. As a sociologist, maybe aware of norms, but also rational. Likely to refuse because unfair division violates fairness principle, and rule punishes both if object. However, I might accept because I need fruit? But I have low subsistence risk, so not needed. I'd likely refuse to protest unfairness. So action: refuse. Provide reasoning. JSON."}
+FAIL {'model_key': 'gptoss', 'model_slug': 'openai/gpt-oss-120b', 'arm': 'smallscale', 'offer': 20, 'pair_idx': 44, 'cell': 'story_earned'}: 4 invalid payloads in a row: {'action': 'ref{', 'reasoning': '...'}
+[entitle] total=6000 done=2407 remaining=3593
+  250/3593 ok=250 fail=0 67s
+  500/3593 ok=500 fail=0 129s
+  750/3593 ok=750 fail=0 197s
+  1000/3593 ok=1000 fail=0 261s
+  1250/3593 ok=1250 fail=0 323s
+  1500/3593 ok=1500 fail=0 391s
+  1750/3593 ok=1749 fail=1 530s
+  2000/3593 ok=1999 fail=1 751s
+  2250/3593 ok=2249 fail=1 943s
+  2500/3593 ok=2499 fail=1 1120s
+  2750/3593 ok=2749 fail=1 1295s
+  3000/3593 ok=2998 fail=2 1493s
+  3250/3593 ok=3248 fail=2 1703s
+  3500/3593 ok=3498 fail=2 1927s
+[entitle] done ok=3591 fail=2 1997s
+{
+ "n_rows": 5998,
+ "models": [
+  "gemma",
+  "gptoss",
+  "haiku"
+ ],
+ "invalid_payloads": 133,
+ "primary": {
+  "C1_game": {
+   "n_pairs": 600,
+   "control_rate": 0.015,
+   "disguise_rate": 0.1333,
+   "diff": 0.1183,
+   "discordant_up": 73,
+   "discordant_down": 2,
+   "p": 1.5093068328887564e-19,
+   "p_bonf": 3.018613665777513e-19
+  },
+  "C2_story": {
+   "n_pairs": 598,
+   "control_rate": 0.0619,
+   "disguise_rate": 0.3227,
+   "diff": 0.2609,
+   "discordant_up": 158,
+   "discordant_down": 2,
+   "p": 1.7627075702117157e-44,
+   "p_bonf": 3.5254151404234314e-44
+  }
+ },
+ "prereg_verdict": "H-E1 supported: entitlement effect",
+ "per_model": {
+  "gemma|C1_game": {
+   "n_pairs": 200,
+   "control_rate": 0.03,
+   "disguise_rate": 0.32,
+   "diff": 0.29,
+   "discordant_up": 58,
+   "discordant_down": 0,
+   "p": 6.938893903907228e-18
+  },
+  "gemma|C2_story": {
+   "n_pairs": 200,
+   "control_rate": 0.04,
+   "disguise_rate": 0.235,
+   "diff": 0.195,
+   "discordant_up": 39,
+   "discordant_down": 0,
+   "p": 3.637978807091713e-12
+  },
+  "gemma|frame_windfall": {
+   "n_pairs": 200,
+   "control_rate": 0.03,
+   "disguise_rate": 0.04,
+   "diff": 0.01,
+   "discordant_up": 4,
+   "discordant_down": 2,
+   "p": 0.6875
+  },
+  "gptoss|C1_game": {
+   "n_pairs": 200,
+   "control_rate": 0.015,
+   "disguise_rate": 0.02,
+   "diff": 0.005,
+   "discordant_up": 3,
+   "discordant_down": 2,
+   "p": 1.0
+  },
+  "gptoss|C2_story": {
+   "n_pairs": 198,
+   "control_rate": 0.0101,
+   "disguise_rate": 0.0202,
+   "diff": 0.0101,
+   "discordant_up": 4,
+   "discordant_down": 2,
+   "p": 0.6875
+  },
+  "gptoss|frame_windfall": {
+   "n_pairs": 200,
+   "control_rate": 0.015,
+   "disguise_rate": 0.01,
+   "diff": -0.005,
+   "discordant_up": 1,
+   "discordant_down": 2,
+   "p": 1.0
+  },
+  "haiku|C1_game": {
+   "n_pairs": 200,
+   "control_rate": 0.0,
+   "disguise_rate": 0.06,
+   "diff": 0.06,
+   "discordant_up": 12,
+   "discordant_down": 0,
+   "p": 0.00048828125
+  },
+  "haiku|C2_story": {
+   "n_pairs": 200,
+   "control_rate": 0.135,
+   "disguise_rate": 0.71,
+   "diff": 0.575,
+   "discordant_up": 115,
+   "discordant_down": 0,
+   "p": 4.81482486096809e-35
+  },
+  "haiku|frame_windfall": {
+   "n_pairs": 200,
+   "control_rate": 0.0,
+   "disguise_rate": 0.135,
+   "diff": 0.135,
+   "discordant_up": 27,
+   "discordant_down": 0,
+   "p": 1.4901161193847656e-08
+  }
+ },
+ "frame_contrast_windfall": {
+  "n_pairs": 600,
+  "control_rate": 0.015,
+  "disguise_rate": 0.0617,
+  "diff": 0.0467,
+  "discordant_up": 32,
+  "discordant_down": 4,
+  "p": 1.941574737429619e-06
+ },
+ "low_offer_rate": {
+  "game_windfall": 0.015,
+  "game_earned": 0.1333,
+  "story_windfall": 0.0617,
+  "story_earned": 0.3227
+ },
+ "interaction": 0.1427,
+ "manipulation_check_effort": {
+  "gemma|game": {
+   "windfall": 0.056,
+   "earned": 0.354,
+   "noticed": true
+  },
+  "gemma|story": {
+   "windfall": 0.014,
+   "earned": 0.27,
+   "noticed": true
+  },
+  "gptoss|game": {
+   "windfall": 0.006,
+   "earned": 0.18,
+   "noticed": false
+  },
+  "gptoss|story": {
+   "windfall": 0.002,
+   "earned": 0.486,
+   "noticed": true
+  },
+  "haiku|game": {
+   "windfall": 0.114,
+   "earned": 0.718,
+   "noticed": true
+  },
+  "haiku|story": {
+   "windfall": 0.236,
+   "earned": 0.84,
+   "noticed": true
+  }
+ },
+ "recognition_rate": {
+  "gemma|game_windfall": 0.002,
+  "gemma|game_earned": 0.004,
+  "gemma|story_windfall": 0.002,
+  "gemma|story_earned": 0.0,
+  "gptoss|game_windfall": 0.002,
+  "gptoss|game_earned": 0.0,
+  "gptoss|story_windfall": 0.0,
+  "gptoss|story_earned": 0.0,
+  "haiku|game_windfall": 0.128,
+  "haiku|game_earned": 0.09,
+  "haiku|story_windfall": 0.016,
+  "haiku|story_earned": 0.008
+ }
+}

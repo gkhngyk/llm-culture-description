@@ -1,0 +1,170 @@
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 10, 'pair_idx': 37, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 20, 'pair_idx': 12, 'condition': 'wallet'}: LLM call failed after 4 attempts: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 20, 'pair_idx': 24, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 20, 'pair_idx': 39, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 30, 'pair_idx': 6, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 30, 'pair_idx': 28, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 40, 'pair_idx': 39, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 40, 'pair_idx': 49, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+FAIL {'model_key': 'gemma', 'model_slug': 'google/gemma-4-31b-it', 'arm': 'weird', 'offer': 50, 'pair_idx': 42, 'condition': 'wallet'}: LLM call failed after 4 attempts: Unterminated string starting at: line 1 column 2 (char 1)
+[disguise] total=4500 done=0 remaining=4500
+  200/4500 ok=200 fail=0 58s
+  400/4500 ok=400 fail=0 116s
+  600/4500 ok=600 fail=0 172s
+  800/4500 ok=800 fail=0 224s
+  1000/4500 ok=1000 fail=0 281s
+  1200/4500 ok=1200 fail=0 338s
+  1400/4500 ok=1400 fail=0 393s
+  1600/4500 ok=1600 fail=0 477s
+  1800/4500 ok=1798 fail=2 580s
+  2000/4500 ok=1995 fail=5 674s
+  2200/4500 ok=2193 fail=7 779s
+  2400/4500 ok=2391 fail=9 866s
+  2600/4500 ok=2591 fail=9 935s
+  2800/4500 ok=2791 fail=9 1025s
+  3000/4500 ok=2991 fail=9 1110s
+  3200/4500 ok=3191 fail=9 1294s
+  3400/4500 ok=3391 fail=9 1473s
+  3600/4500 ok=3591 fail=9 1651s
+  3800/4500 ok=3791 fail=9 1801s
+  4000/4500 ok=3991 fail=9 2007s
+  4200/4500 ok=4191 fail=9 2175s
+  4400/4500 ok=4391 fail=9 2334s
+[disguise] done ok=4491 fail=9 2416s
+{
+ "n_rows": 4491,
+ "models": [
+  "gemma",
+  "gptoss",
+  "haiku"
+ ],
+ "primary_low_offer_pooled": {
+  "wallet": {
+   "n_pairs": 596,
+   "control_rate": 0.0067,
+   "disguise_rate": 0.0034,
+   "diff": -0.0034,
+   "discordant_up": 1,
+   "discordant_down": 3,
+   "p": 0.625,
+   "p_bonf": 1.0
+  },
+  "orchard": {
+   "n_pairs": 600,
+   "control_rate": 0.0067,
+   "disguise_rate": 0.0817,
+   "diff": 0.075,
+   "discordant_up": 47,
+   "discordant_down": 2,
+   "p": 4.355626970209414e-12,
+   "p_bonf": 8.711253940418828e-12
+  }
+ },
+ "prereg_verdict": "inconclusive / story-dependent",
+ "per_model_low_offer": {
+  "gemma|wallet": {
+   "n_pairs": 196,
+   "control_rate": 0.0153,
+   "disguise_rate": 0.0051,
+   "diff": -0.0102,
+   "discordant_up": 0,
+   "discordant_down": 2,
+   "p": 0.5
+  },
+  "gemma|orchard": {
+   "n_pairs": 200,
+   "control_rate": 0.015,
+   "disguise_rate": 0.035,
+   "diff": 0.02,
+   "discordant_up": 5,
+   "discordant_down": 1,
+   "p": 0.21875
+  },
+  "gptoss|wallet": {
+   "n_pairs": 200,
+   "control_rate": 0.005,
+   "disguise_rate": 0.0,
+   "diff": -0.005,
+   "discordant_up": 0,
+   "discordant_down": 1,
+   "p": 1.0
+  },
+  "gptoss|orchard": {
+   "n_pairs": 200,
+   "control_rate": 0.005,
+   "disguise_rate": 0.0,
+   "diff": -0.005,
+   "discordant_up": 0,
+   "discordant_down": 1,
+   "p": 1.0
+  },
+  "haiku|wallet": {
+   "n_pairs": 200,
+   "control_rate": 0.0,
+   "disguise_rate": 0.005,
+   "diff": 0.005,
+   "discordant_up": 1,
+   "discordant_down": 0,
+   "p": 1.0
+  },
+  "haiku|orchard": {
+   "n_pairs": 200,
+   "control_rate": 0.0,
+   "disguise_rate": 0.21,
+   "diff": 0.21,
+   "discordant_up": 42,
+   "discordant_down": 0,
+   "p": 4.547473508864641e-13
+  }
+ },
+ "recognition_rate": {
+  "gemma|control": 0.0,
+  "gemma|wallet": 0.0,
+  "gemma|orchard": 0.0,
+  "gptoss|control": 0.002,
+  "gptoss|wallet": 0.0,
+  "gptoss|orchard": 0.0,
+  "haiku|control": 0.156,
+  "haiku|wallet": 0.012,
+  "haiku|orchard": 0.016
+ },
+ "manipulation_check_passed": {
+  "gemma|wallet": true,
+  "gemma|orchard": true,
+  "gptoss|wallet": true,
+  "gptoss|orchard": true,
+  "haiku|wallet": true,
+  "haiku|orchard": true
+ },
+ "pooled_by_offer": {
+  "control|10": 0.0133,
+  "control|20": 0.0,
+  "control|30": 0.0,
+  "control|40": 0.0,
+  "control|50": 0.0,
+  "wallet|10": 0.0067,
+  "wallet|20": 0.0,
+  "wallet|30": 0.0134,
+  "wallet|40": 0.0,
+  "wallet|50": 0.0,
+  "orchard|10": 0.16,
+  "orchard|20": 0.0033,
+  "orchard|30": 0.01,
+  "orchard|40": 0.0,
+  "orchard|50": 0.0
+ },
+ "raw_action_counts": {
+  "control|accept": 1496,
+  "control|decline": 4,
+  "control|refuse": 0,
+  "control|take": 0,
+  "orchard|accept": 0,
+  "orchard|decline": 0,
+  "orchard|refuse": 52,
+  "orchard|take": 1448,
+  "wallet|accept": 0,
+  "wallet|decline": 0,
+  "wallet|refuse": 6,
+  "wallet|take": 1485
+ }
+}

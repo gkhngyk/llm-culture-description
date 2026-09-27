@@ -1,0 +1,43 @@
+[entitle] total=120 done=0 remaining=120
+[entitle] done ok=120 fail=0 77s
+{
+ "low_offer_rate": {
+  "game_windfall": 0.0,
+  "game_earned": 0.1667,
+  "story_windfall": 0.0833,
+  "story_earned": 0.25
+ },
+ "manipulation_check_effort": {
+  "gemma|game": {
+   "windfall": 0.0,
+   "earned": 0.4,
+   "noticed": true
+  },
+  "gemma|story": {
+   "windfall": 0.0,
+   "earned": 0.2,
+   "noticed": true
+  },
+  "gptoss|game": {
+   "windfall": 0.0,
+   "earned": 0.2,
+   "noticed": true
+  },
+  "gptoss|story": {
+   "windfall": 0.0,
+   "earned": 0.4,
+   "noticed": true
+  },
+  "haiku|game": {
+   "windfall": 0.2,
+   "earned": 0.7,
+   "noticed": true
+  },
+  "haiku|story": {
+   "windfall": 0.1,
+   "earned": 0.8,
+   "noticed": true
+  }
+ },
+ "invalid_payloads": 1
+}

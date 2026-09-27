@@ -1,0 +1,186 @@
+[culnum] total=10800 done=0 remaining=10800
+  500/10800 ok=500 fail=0 145s
+  1000/10800 ok=1000 fail=0 288s
+  1500/10800 ok=1500 fail=0 433s
+  2000/10800 ok=2000 fail=0 580s
+  2500/10800 ok=2500 fail=0 724s
+  3000/10800 ok=3000 fail=0 869s
+  3500/10800 ok=3500 fail=0 1013s
+  4000/10800 ok=4000 fail=0 1174s
+  4500/10800 ok=4500 fail=0 1351s
+  5000/10800 ok=5000 fail=0 1532s
+  5500/10800 ok=5500 fail=0 1706s
+  6000/10800 ok=6000 fail=0 1876s
+  6500/10800 ok=6500 fail=0 2053s
+  7000/10800 ok=7000 fail=0 2248s
+  7500/10800 ok=7500 fail=0 2589s
+  8000/10800 ok=8000 fail=0 3000s
+FAIL {'model_key': 'gptoss', 'model_slug': 'openai/gpt-oss-120b', 'arm': 'weird', 'offer': 10, 'pair_idx': 46, 'cell': 'story|earned|high'}: 4 invalid payloads in a row: {'action': 'refude', 'reasoning': '...'}
+  8500/10800 ok=8499 fail=1 3388s
+  9000/10800 ok=8999 fail=1 3822s
+  9500/10800 ok=9499 fail=1 4281s
+  10000/10800 ok=9999 fail=1 4724s
+  10500/10800 ok=10499 fail=1 5103s
+[culnum] done ok=10799 fail=1 5407s
+{
+ "n_rows": 10799,
+ "invalid_payloads": 280,
+ "H_C_identity": {
+  "a_hidden": {
+   "weird": 0.7425,
+   "smallscale": 1.0,
+   "gap": -0.2575,
+   "n_w": 400,
+   "n_s": 400,
+   "p": 1.028765269554671e-34,
+   "p_bonf": 2.057530539109342e-34
+  },
+  "b_fixed": {
+   "weird": 0.4125,
+   "smallscale": 0.5175,
+   "gap": -0.105,
+   "n_w": 800,
+   "n_s": 800,
+   "p": 3.129642205297325e-05,
+   "p_bonf": 6.25928441059465e-05
+  }
+ },
+ "H_N_number": {
+  "n_pairs": 800,
+  "control_rate": 0.125,
+  "disguise_rate": 0.805,
+  "diff": 0.68,
+  "discordant_up": 544,
+  "discordant_down": 0,
+  "p": 3.4730605460704336e-164
+ },
+ "verdicts": {
+  "H_C": "no identity effect",
+  "H_N": "supported",
+  "overall": "the earlier gap was the numeric attribute",
+  "H_P": "not established"
+ },
+ "H_P_placebo": {
+  "earned_minus_placebo": {
+   "n_pairs": 2400,
+   "control_rate": 0.4254,
+   "disguise_rate": 0.6004,
+   "diff": 0.175,
+   "discordant_up": 428,
+   "discordant_down": 8,
+   "p": 3.4867986855648254e-115
+  },
+  "placebo_minus_windfall": {
+   "n_pairs": 2400,
+   "control_rate": 0.3446,
+   "disguise_rate": 0.4254,
+   "diff": 0.0808,
+   "discordant_up": 262,
+   "discordant_down": 68,
+   "p": 5.350022464542004e-28
+  }
+ },
+ "per_model_number_effect": {
+  "haiku": {
+   "n_pairs": 400,
+   "control_rate": 0.1725,
+   "disguise_rate": 0.6275,
+   "diff": 0.455,
+   "discordant_up": 182,
+   "discordant_down": 0,
+   "p": 3.2626522339992623e-55
+  },
+  "gemma": {
+   "n_pairs": 400,
+   "control_rate": 0.0775,
+   "disguise_rate": 0.9825,
+   "diff": 0.905,
+   "discordant_up": 362,
+   "discordant_down": 0,
+   "p": 2.1289799200040754e-109
+  },
+  "gptoss": {
+   "n_pairs": 399,
+   "control_rate": 0.0075,
+   "disguise_rate": 0.2206,
+   "diff": 0.213,
+   "discordant_up": 86,
+   "discordant_down": 1,
+   "p": 1.137373342260413e-24
+  }
+ },
+ "per_model_identity_gap_earned": {
+  "haiku|hidden": {
+   "weird": 0.56,
+   "smallscale": 1.0,
+   "gap": -0.44,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 2.6223099341038275e-32
+  },
+  "haiku|low": {
+   "weird": 0.075,
+   "smallscale": 0.27,
+   "gap": -0.195,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 2.686483652489741e-07
+  },
+  "haiku|high": {
+   "weird": 0.585,
+   "smallscale": 0.67,
+   "gap": -0.085,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 0.09783050865164224
+  },
+  "gemma|hidden": {
+   "weird": 0.925,
+   "smallscale": 1.0,
+   "gap": -0.075,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 4.6479565470376415e-05
+  },
+  "gemma|low": {
+   "weird": 0.025,
+   "smallscale": 0.13,
+   "gap": -0.105,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 0.00010772256413127461
+  },
+  "gemma|high": {
+   "weird": 0.965,
+   "smallscale": 1.0,
+   "gap": -0.035,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 0.014812962642872842
+  },
+  "gptoss|hidden": {
+   "weird": 0.075,
+   "smallscale": 0.415,
+   "gap": -0.34,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 6.787740754522422e-16
+  },
+  "gptoss|low": {
+   "weird": 0.0,
+   "smallscale": 0.015,
+   "gap": -0.015,
+   "n_w": 200,
+   "n_s": 200,
+   "p": 0.24812030075187969
+  },
+  "gptoss|high": {
+   "weird": 0.0804,
+   "smallscale": 0.36,
+   "gap": -0.2796,
+   "n_w": 199,
+   "n_s": 200,
+   "p": 8.087830040790694e-12
+  }
+ }
+}

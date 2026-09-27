@@ -1,0 +1,43 @@
+# LLMs Simulate the Description of a Culture, Not the Culture
+
+Replication package for *"LLMs Simulate the Description of a Culture, Not the Culture: An Attempt to Reproduce Henrich's Cross-Cultural Ultimatum Game Finding with LLM Agents"* (Gökhan Geyik, Empler AI, 2026).
+
+- English paper: `paper_en/main.tex` / `paper_en/main.pdf`
+- Turkish paper: `paper_tr/main.tex` / `paper_tr/main.pdf`
+- Lab notebook with every analysis step, including withdrawn claims: `report.md`
+
+## Pre-registration files
+
+Each test's hypotheses, decision rules and analysis plan were written to a file before its data were collected; post-pilot changes are recorded in the same file as dated amendments, and each file ends with a results note applying the rules as written. These files were **not** uploaded to a public time-stamped registry; their writing times cannot be independently verified.
+
+| Paper section | Pre-registration | Code | Results |
+|---|---|---|---|
+| Study 1 (numeric cards) | `report.md` §2 | `run_ultimatum.py`, `run_extend_to_n50.py`, `ultimatum_sim.py` | `results/primary.jsonl`, `results/analysis.json` |
+| Numeric attributes (§5) | `prereg_culture_number.md` | `culture_number_test.py`, `run_culture_number.py` | `results/culture_number*.json(l)` |
+| Study 2 (no numbers) | `prereg_nonumber.md` | `nonumber_test.py`, `run_nonumber.py` | `results/nonumber*.json(l)` |
+| Description test (§7) | `prereg_card_wording.md` | `card_wording_test.py`, `run_card_wording.py` | `results/card_wording*.json(l)` |
+| Appendix: disguised game | `prereg_disguise.md` | `disguise_test.py`, `run_disguise.py` | `results/disguise*.json(l)` |
+| Appendix: entitlement | `prereg_entitlement.md` | `entitlement_test.py`, `run_entitlement.py` | `results/entitlement*.json(l)` |
+| Justification coding | — (method in paper §3.5) | `jev_client.py`, `run_decision_model_coding.py`, `run_nonumber_coding.py` | `results/decision_model_coding*`, `results/nonumber_coding*` |
+
+Files named `*_smoke*.jsonl` are pilot runs and are excluded from every analysis. `ultimatum_prompt.md` is the original design brief given to the AI assistant at the start of the study.
+
+## Running
+
+```bash
+python3.12 -m venv .venv && .venv/bin/pip install -r requirements.lock.txt
+echo "OPENROUTER_API_KEY=..." > .env
+.venv/bin/python run_nonumber.py smoke      # small pilot
+.venv/bin/python run_nonumber.py analyze    # re-analyse the stored results
+```
+
+Every runner has `preview` (print prompts, no API calls), `smoke`, `run` (resumable) and `analyze`. Figures: `analysis/en_figs.py` (English), `analysis/v2_figs.py` and `analysis/followup_DE_figs.py` (Turkish).
+
+## Raw API log
+
+`logs/raw_calls.public.jsonl.gz` contains every request and response (messages, raw output, parsed output, usage, session id, time stamp). The OpenRouter account id that appeared in two error messages is replaced by `user_REDACTED`.
+
+## Known limitations of the package
+
+- Study 1 card seeds used Python's per-process salted `hash()`; the cards cannot be regenerated from seeds, but every card used is stored in `results/primary.jsonl`. All later experiments use fixed `crc32` seeds.
+- Closed models may be updated by their providers; exact reproduction is not guaranteed.

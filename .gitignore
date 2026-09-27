@@ -1,0 +1,22 @@
+# environments and secrets
+.venv/
+.venv.*/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# the full raw log is too large for GitHub and contains an account id;
+# the published copy is logs/raw_calls.public.jsonl.gz (id redacted)
+logs/raw_calls.jsonl
+
+# local working backups and superseded paper artefacts
+report.backup-*.md
+paper_tr/main.backup-*
+paper_tr/Archive.zip
+paper_tr/latex.zip
+paper_tr/makale.*
+paper_tr/makale_tr.css
+paper_en/arxiv/
+*.tar.gz

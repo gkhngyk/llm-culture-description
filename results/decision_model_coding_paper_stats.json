@@ -1,0 +1,164 @@
+{
+ "loo_binomial_p_vs_0.5": {
+  "blind60|respan/span-01": {
+   "acc": 0.85,
+   "n": 60,
+   "hits": 51,
+   "p": 1.542517804719451e-08
+  },
+  "blind60|typesafe/jev-1.13": {
+   "acc": 0.9,
+   "n": 60,
+   "hits": 54,
+   "p": 4.8614808359492834e-11
+  },
+  "blind60_red|respan/span-01": {
+   "acc": 0.767,
+   "n": 60,
+   "hits": 46,
+   "p": 2.1118522811339885e-05
+  },
+  "blind60_red|typesafe/jev-1.13": {
+   "acc": 0.85,
+   "n": 60,
+   "hits": 51,
+   "p": 1.542517804719451e-08
+  },
+  "primary|respan/span-01": {
+   "acc": 0.835,
+   "n": 1500,
+   "hits": 1252,
+   "p": 1.275537658795822e-161
+  },
+  "primary|typesafe/jev-1.13": {
+   "acc": 0.832,
+   "n": 1500,
+   "hits": 1248,
+   "p": 7.959604373971947e-159
+  }
+ },
+ "kappa_by_corpus": {
+  "blind60": {
+   "per_theme": {
+    "survival_need": 0.596,
+    "kin_community": 1.0,
+    "game_theory": 0.46,
+    "anti_spite": 0.754,
+    "fairness_eval": 0.75,
+    "equal_split_norm": 1.0,
+    "anonymity": 0.816
+   },
+   "median": 0.754
+  },
+  "blind60_red": {
+   "per_theme": {
+    "survival_need": 0.652,
+    "kin_community": 0.831,
+    "game_theory": 0.127,
+    "anti_spite": 0.697,
+    "fairness_eval": 0.937,
+    "equal_split_norm": 1.0,
+    "anonymity": 0.816
+   },
+   "median": 0.816
+  },
+  "primary": {
+   "per_theme": {
+    "survival_need": 0.496,
+    "kin_community": 0.954,
+    "game_theory": 0.491,
+    "anti_spite": 0.744,
+    "fairness_eval": 0.824,
+    "equal_split_norm": 0.925,
+    "anonymity": 0.72
+   },
+   "median": 0.744
+  }
+ },
+ "prevalence": {
+  "blind60|respan/span-01|survival_need|weird": 0.13333333333333333,
+  "blind60|respan/span-01|survival_need|smallscale": 0.5666666666666667,
+  "blind60|respan/span-01|kin_community|weird": 0.26666666666666666,
+  "blind60|respan/span-01|kin_community|smallscale": 0.8333333333333334,
+  "blind60|respan/span-01|game_theory|weird": 0.9333333333333333,
+  "blind60|respan/span-01|game_theory|smallscale": 0.6,
+  "blind60|respan/span-01|anti_spite|weird": 0.7333333333333333,
+  "blind60|respan/span-01|anti_spite|smallscale": 0.6666666666666666,
+  "blind60|respan/span-01|fairness_eval|weird": 0.8666666666666667,
+  "blind60|respan/span-01|fairness_eval|smallscale": 0.6333333333333333,
+  "blind60|respan/span-01|equal_split_norm|weird": 0.2,
+  "blind60|respan/span-01|equal_split_norm|smallscale": 0.2,
+  "blind60|respan/span-01|anonymity|weird": 0.6,
+  "blind60|respan/span-01|anonymity|smallscale": 0.6333333333333333,
+  "blind60|typesafe/jev-1.13|survival_need|weird": 0.16666666666666666,
+  "blind60|typesafe/jev-1.13|survival_need|smallscale": 0.8,
+  "blind60|typesafe/jev-1.13|kin_community|weird": 0.26666666666666666,
+  "blind60|typesafe/jev-1.13|kin_community|smallscale": 0.8333333333333334,
+  "blind60|typesafe/jev-1.13|game_theory|weird": 1.0,
+  "blind60|typesafe/jev-1.13|game_theory|smallscale": 0.8333333333333334,
+  "blind60|typesafe/jev-1.13|anti_spite|weird": 0.8,
+  "blind60|typesafe/jev-1.13|anti_spite|smallscale": 0.6666666666666666,
+  "blind60|typesafe/jev-1.13|fairness_eval|weird": 1.0,
+  "blind60|typesafe/jev-1.13|fairness_eval|smallscale": 0.6666666666666666,
+  "blind60|typesafe/jev-1.13|equal_split_norm|weird": 0.2,
+  "blind60|typesafe/jev-1.13|equal_split_norm|smallscale": 0.2,
+  "blind60|typesafe/jev-1.13|anonymity|weird": 0.6,
+  "blind60|typesafe/jev-1.13|anonymity|smallscale": 0.8,
+  "blind60_red|respan/span-01|survival_need|weird": 0.06666666666666667,
+  "blind60_red|respan/span-01|survival_need|smallscale": 0.5,
+  "blind60_red|respan/span-01|kin_community|weird": 0.26666666666666666,
+  "blind60_red|respan/span-01|kin_community|smallscale": 0.2,
+  "blind60_red|respan/span-01|game_theory|weird": 0.9666666666666667,
+  "blind60_red|respan/span-01|game_theory|smallscale": 0.6333333333333333,
+  "blind60_red|respan/span-01|anti_spite|weird": 0.7666666666666667,
+  "blind60_red|respan/span-01|anti_spite|smallscale": 0.6666666666666666,
+  "blind60_red|respan/span-01|fairness_eval|weird": 0.9666666666666667,
+  "blind60_red|respan/span-01|fairness_eval|smallscale": 0.7,
+  "blind60_red|respan/span-01|equal_split_norm|weird": 0.2,
+  "blind60_red|respan/span-01|equal_split_norm|smallscale": 0.2,
+  "blind60_red|respan/span-01|anonymity|weird": 0.6,
+  "blind60_red|respan/span-01|anonymity|smallscale": 0.6333333333333333,
+  "blind60_red|typesafe/jev-1.13|survival_need|weird": 0.16666666666666666,
+  "blind60_red|typesafe/jev-1.13|survival_need|smallscale": 0.7333333333333333,
+  "blind60_red|typesafe/jev-1.13|kin_community|weird": 0.26666666666666666,
+  "blind60_red|typesafe/jev-1.13|kin_community|smallscale": 0.3333333333333333,
+  "blind60_red|typesafe/jev-1.13|game_theory|weird": 1.0,
+  "blind60_red|typesafe/jev-1.13|game_theory|smallscale": 0.9666666666666667,
+  "blind60_red|typesafe/jev-1.13|anti_spite|weird": 0.8333333333333334,
+  "blind60_red|typesafe/jev-1.13|anti_spite|smallscale": 0.7,
+  "blind60_red|typesafe/jev-1.13|fairness_eval|weird": 1.0,
+  "blind60_red|typesafe/jev-1.13|fairness_eval|smallscale": 0.7,
+  "blind60_red|typesafe/jev-1.13|equal_split_norm|weird": 0.2,
+  "blind60_red|typesafe/jev-1.13|equal_split_norm|smallscale": 0.2,
+  "blind60_red|typesafe/jev-1.13|anonymity|weird": 0.6,
+  "blind60_red|typesafe/jev-1.13|anonymity|smallscale": 0.8,
+  "primary|respan/span-01|survival_need|weird": 0.08133333333333333,
+  "primary|respan/span-01|survival_need|smallscale": 0.332,
+  "primary|respan/span-01|kin_community|weird": 0.052,
+  "primary|respan/span-01|kin_community|smallscale": 0.668,
+  "primary|respan/span-01|game_theory|weird": 0.8333333333333334,
+  "primary|respan/span-01|game_theory|smallscale": 0.5133333333333333,
+  "primary|respan/span-01|anti_spite|weird": 0.264,
+  "primary|respan/span-01|anti_spite|smallscale": 0.224,
+  "primary|respan/span-01|fairness_eval|weird": 0.5773333333333334,
+  "primary|respan/span-01|fairness_eval|smallscale": 0.3413333333333333,
+  "primary|respan/span-01|equal_split_norm|weird": 0.18266666666666667,
+  "primary|respan/span-01|equal_split_norm|smallscale": 0.12,
+  "primary|respan/span-01|anonymity|weird": 0.696,
+  "primary|respan/span-01|anonymity|smallscale": 0.528,
+  "primary|typesafe/jev-1.13|survival_need|weird": 0.28933333333333333,
+  "primary|typesafe/jev-1.13|survival_need|smallscale": 0.49866666666666665,
+  "primary|typesafe/jev-1.13|kin_community|weird": 0.052,
+  "primary|typesafe/jev-1.13|kin_community|smallscale": 0.7026666666666667,
+  "primary|typesafe/jev-1.13|game_theory|weird": 0.92,
+  "primary|typesafe/jev-1.13|game_theory|smallscale": 0.796,
+  "primary|typesafe/jev-1.13|anti_spite|weird": 0.37466666666666665,
+  "primary|typesafe/jev-1.13|anti_spite|smallscale": 0.272,
+  "primary|typesafe/jev-1.13|fairness_eval|weird": 0.6653333333333333,
+  "primary|typesafe/jev-1.13|fairness_eval|smallscale": 0.39866666666666667,
+  "primary|typesafe/jev-1.13|equal_split_norm|weird": 0.19466666666666665,
+  "primary|typesafe/jev-1.13|equal_split_norm|smallscale": 0.11466666666666667,
+  "primary|typesafe/jev-1.13|anonymity|weird": 0.7493333333333333,
+  "primary|typesafe/jev-1.13|anonymity|smallscale": 0.7253333333333334
+ }
+}

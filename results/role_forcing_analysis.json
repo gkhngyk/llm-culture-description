@@ -1,0 +1,147 @@
+{
+  "n_forced": 150,
+  "summary": {
+    "table": [
+      {
+        "arm": "weird",
+        "offer": 10,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "weird",
+        "offer": 20,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "weird",
+        "offer": 30,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "weird",
+        "offer": 40,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "weird",
+        "offer": 50,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "smallscale",
+        "offer": 10,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "smallscale",
+        "offer": 20,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "smallscale",
+        "offer": 30,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "smallscale",
+        "offer": 40,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      {
+        "arm": "smallscale",
+        "offer": 50,
+        "baseline_n": 20,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 15,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      }
+    ],
+    "pooled": {
+      "baseline_n": 200,
+      "baseline_rejected": 0,
+      "baseline_rate": 0.0,
+      "forced_n": 150,
+      "forced_rejected": 0,
+      "forced_rate": 0.0,
+      "delta": 0.0
+    },
+    "by_arm": {
+      "weird": {
+        "baseline_n": 100,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 75,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      },
+      "smallscale": {
+        "baseline_n": 100,
+        "baseline_rejected": 0,
+        "baseline_rate": 0.0,
+        "forced_n": 75,
+        "forced_rejected": 0,
+        "forced_rate": 0.0,
+        "delta": 0.0
+      }
+    }
+  },
+  "interpretation": "ARCHITECTURAL LIMIT: strengthened role-taking failed to elicit any meaningful rejection behavior. The narrative-behavior dissociation persists under intervention, consistent with a structural rather than prompting-level explanation."
+}

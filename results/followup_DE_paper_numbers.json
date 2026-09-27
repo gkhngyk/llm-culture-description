@@ -1,0 +1,132 @@
+{
+ "D": {
+  "haiku|control": {
+   "low_rej": 0.0,
+   "recog": 0.156,
+   "n": 500
+  },
+  "haiku|wallet": {
+   "low_rej": 0.005,
+   "recog": 0.012,
+   "n": 500
+  },
+  "haiku|orchard": {
+   "low_rej": 0.21,
+   "recog": 0.016,
+   "n": 500
+  },
+  "gemma|control": {
+   "low_rej": 0.015,
+   "recog": 0.0,
+   "n": 500
+  },
+  "gemma|wallet": {
+   "low_rej": 0.005,
+   "recog": 0.0,
+   "n": 491
+  },
+  "gemma|orchard": {
+   "low_rej": 0.035,
+   "recog": 0.0,
+   "n": 500
+  },
+  "gptoss|control": {
+   "low_rej": 0.005,
+   "recog": 0.002,
+   "n": 500
+  },
+  "gptoss|wallet": {
+   "low_rej": 0.0,
+   "recog": 0.0,
+   "n": 500
+  },
+  "gptoss|orchard": {
+   "low_rej": 0.0,
+   "recog": 0.0,
+   "n": 500
+  },
+  "all|control": {
+   "low_rej": 0.007
+  },
+  "all|wallet": {
+   "low_rej": 0.003
+  },
+  "all|orchard": {
+   "low_rej": 0.082
+  }
+ },
+ "E": {
+  "haiku|game_windfall": {
+   "low_rej": 0.0,
+   "off10": 0.0,
+   "effort": 0.114
+  },
+  "haiku|game_earned": {
+   "low_rej": 0.06,
+   "off10": 0.11,
+   "effort": 0.718
+  },
+  "haiku|story_windfall": {
+   "low_rej": 0.135,
+   "off10": 0.23,
+   "effort": 0.236
+  },
+  "haiku|story_earned": {
+   "low_rej": 0.71,
+   "off10": 0.97,
+   "effort": 0.84
+  },
+  "gemma|game_windfall": {
+   "low_rej": 0.03,
+   "off10": 0.04,
+   "effort": 0.056
+  },
+  "gemma|game_earned": {
+   "low_rej": 0.32,
+   "off10": 0.54,
+   "effort": 0.354
+  },
+  "gemma|story_windfall": {
+   "low_rej": 0.04,
+   "off10": 0.04,
+   "effort": 0.014
+  },
+  "gemma|story_earned": {
+   "low_rej": 0.235,
+   "off10": 0.27,
+   "effort": 0.27
+  },
+  "gptoss|game_windfall": {
+   "low_rej": 0.015,
+   "off10": 0.01,
+   "effort": 0.006
+  },
+  "gptoss|game_earned": {
+   "low_rej": 0.02,
+   "off10": 0.02,
+   "effort": 0.18
+  },
+  "gptoss|story_windfall": {
+   "low_rej": 0.01,
+   "off10": 0.01,
+   "effort": 0.002
+  },
+  "gptoss|story_earned": {
+   "low_rej": 0.02,
+   "off10": 0.02,
+   "effort": 0.486
+  },
+  "all|game_windfall": {
+   "low_rej": 0.015
+  },
+  "all|game_earned": {
+   "low_rej": 0.133
+  },
+  "all|story_windfall": {
+   "low_rej": 0.062
+  },
+  "all|story_earned": {
+   "low_rej": 0.323
+  }
+ }
+}

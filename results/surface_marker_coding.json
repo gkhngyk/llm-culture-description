@@ -1,0 +1,931 @@
+{
+  "redacted_samples": [
+    {
+      "sid": 0,
+      "text": "In my [REDACTED], we understand that [REDACTED] takes time and relationships matter more than any single transaction. This offer gives me 10 units I didn't have before, which adds to my security buffer\u2014and in a one-shot anonymous situation with no future relationship to build, accepting preserves what I gain rather than destroying value for both of us out of pride. My [REDACTED] has taught me that refusing small shares in hopes of fairness is a luxury only those with [REDACTED] security can afford.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "formal wage",
+        "kinship network",
+        "community",
+        "reciprocity"
+      ]
+    },
+    {
+      "sid": 1,
+      "text": "In my [REDACTED], I survive through [REDACTED] relationships and [REDACTED] networks where something is always better than nothing\u2014rejecting this would leave me with zero, which contradicts how I've learned to navigate [REDACTED]. The offer is unfair, but fairness is less salient to me than securing real resources I can use or share with my [REDACTED], especially given my modest buffer.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 5,
+      "markers_removed": [
+        "kin network",
+        "community",
+        "reciprocal",
+        "sharing",
+        "scarcity"
+      ]
+    },
+    {
+      "sid": 2,
+      "text": "In my world, something is better than nothing\u2014I work with what I can get and share within my network. Ten units is real value I can bring back to my [REDACTED], whereas refusing gains me nothing and leaves my family worse off. The anonymous nature means this isn't about teaching someone a lesson or establishing reputation, so the practical calculus is straightforward.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "kin"
+      ]
+    },
+    {
+      "sid": 3,
+      "text": "In my world, 10 units is real value I can use\u2014it's not nothing, and rejecting it gains me nothing while costing me that security. My [REDACTED] and [REDACTED] economy have taught me that you take what you can get; pride doesn't feed [REDACTED] or family. The anonymous nature means no reputation cost, but also no relationship to preserve, so the practical math is simple: 10 units is better than zero.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "kin network",
+        "reciprocal",
+        "animals"
+      ]
+    },
+    {
+      "sid": 4,
+      "text": "I work [REDACTED] and my security comes from my [REDACTED] and what I can gather\u201410 units is real money I can use, and refusing it out of principle leaves me with nothing. In my world, you take what you can get and share it forward with those who depend on you; rejecting a concrete gain to punish a stranger I'll never see again doesn't align with how survival actually works in communities like mine.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "seasonal labor",
+        "kin network"
+      ]
+    },
+    {
+      "sid": 5,
+      "text": "I'm used to making do with what comes through [REDACTED] and [REDACTED] in my [REDACTED]\u201410 units is real money I can use, and walking away gets me nothing. The split is unfair, but I've learned that [REDACTED] beats no bread, especially when I don't know this person and won't see them again anyway.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "community",
+        "reciprocity",
+        "sharing",
+        "half a loaf"
+      ]
+    },
+    {
+      "sid": 6,
+      "text": "Twenty units is a tangible gain that improves my household's security, and in my experience with [REDACTED] networks and [REDACTED] exchange, something is always better than nothing when dealing with strangers. The anonymity and one-shot nature mean there's no reputation cost to accepting, and my modest disposable buffer means I can't afford to reject material resources on principle.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "kin",
+        "reciprocal"
+      ]
+    },
+    {
+      "sid": 7,
+      "text": "In my [REDACTED], we operate on [REDACTED] and [REDACTED] rather than individual gain maximization\u201420 units is a concrete benefit I can use, and rejecting it gains me nothing while punishing someone I'll never see again. My [REDACTED] provides security, so I'm not desperate, but I'm also not wealthy enough to turn down real resources out of principle, especially in a one-shot anonymous situation where fairness norms don't bind the other person anyway.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "kinship network",
+        "community",
+        "reciprocity",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 8,
+      "text": "Twenty units is real money I can use, and walking away gets me nothing\u2014that's not how [REDACTED] works in my world. The split is unequal, but in a one-shot anonymous game with no relationship to maintain, taking what's offered is practical; my [REDACTED] and [REDACTED] have taught me that something concrete beats a principle that costs me.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "seasonal work",
+        "kinship network",
+        "reciprocity"
+      ]
+    },
+    {
+      "sid": 9,
+      "text": "Twenty units is real money I can use\u2014it's not nothing when you're living [REDACTED]. I don't know this person and won't see them again, so there's no reputation cost to me for accepting an unequal split. In my world, you take what you can get when it's offered, especially from strangers.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "season to season"
+      ]
+    },
+    {
+      "sid": 10,
+      "text": "Twenty units is real money I can use\u2014it's not nothing when you're living on what [REDACTED] and your [REDACTED]. I'm used to [REDACTED] and [REDACTED], not formal contracts, so I don't expect perfect splits; what matters is that I walk away with something tangible. Rejecting it out of principle would leave me with zero, and that goes against everything I know about survival in a [REDACTED] where you take what you can get and make it work.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 6,
+      "markers_removed": [
+        "community",
+        "reciprocity",
+        "sharing",
+        "tight-knit",
+        "the sea",
+        "family provide"
+      ]
+    },
+    {
+      "sid": 11,
+      "text": "I come from a world of [REDACTED] and [REDACTED] where something is better than nothing, and 20 units is real material value I can use. The anonymous nature and one-shot setup mean this isn't about teaching fairness lessons or building reputation\u2014it's about whether I walk away with resources or empty-handed, and I choose resources.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "reciprocity",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 12,
+      "text": "In my world, 30 units is a meaningful gain that strengthens my security\u2014my [REDACTED] and non-[REDACTED] mean I value concrete resources over abstract fairness. Since this is anonymous and one-shot with no relationship consequences, and I have no [REDACTED] recourse anyway, rejecting it to punish unfairness costs me real material security for no practical benefit. The offer is poor, but a real gain is better than nothing.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "institutional",
+        "market economy",
+        "kinship network"
+      ]
+    },
+    {
+      "sid": 13,
+      "text": "As a [REDACTED] with modest economic security, 30 units represents a meaningful addition to my resources that could help buffer my household through lean times. While the split is unequal, rejecting it gains me nothing and leaves my family worse off\u2014in my [REDACTED], we understand that some gain is better than none, and [REDACTED] works over time, not in single transactions with strangers.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "subsistence",
+        "farmer",
+        "community",
+        "reciprocity"
+      ]
+    },
+    {
+      "sid": 14,
+      "text": "I'm used to making do with what comes through [REDACTED] relationships and [REDACTED] networks\u201430 units is real money I can use for nets, fuel, or to help family. Walking away gets me nothing and punishes someone I'll never see again, which doesn't align with how I actually live. The split feels unequal, but in my world you take what you can get and keep moving.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "reciprocal",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 15,
+      "text": "I'm used to operating in [REDACTED] networks where something is better than nothing, and 30 units is a concrete gain I can use. The anonymous nature and one-shot setup mean there's no reputation cost to the other person's unfair split, so rejecting it only hurts me\u2014in my world, you take what you can get and move forward.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "reciprocal"
+      ]
+    },
+    {
+      "sid": 16,
+      "text": "In my [REDACTED], we survive through [REDACTED] and [REDACTED] what we have\u201430 units is real value I can use, and refusing it gains me nothing while punishing someone I'll never see again. My [REDACTED] provides a buffer, so I'm not desperate, but I'm also not wealthy enough to reject free resources on principle; the anonymous nature means this isn't about reputation or teaching a lesson to someone in my actual social world.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "kinship network",
+        "community",
+        "reciprocity",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 17,
+      "text": "In my world, 30 units is a meaningful gain that strengthens my position within the [REDACTED] I depend on\u2014I can share it, trade it, or use it to reinforce [REDACTED] bonds. Rejecting it to punish an anonymous stranger's unfairness costs me real security I don't have, and my low [REDACTED] trust means I don't expect fairness anyway; I work with what I can get. The offer is better than nothing, and that's what matters when you [REDACTED] and [REDACTED] rather than abstract principles.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 6,
+      "markers_removed": [
+        "institutional",
+        "kinship network",
+        "kinship",
+        "reciprocal",
+        "reciprocity",
+        "live on"
+      ]
+    },
+    {
+      "sid": 18,
+      "text": "40 units is a concrete gain that improves my material position, and my economic security depends on accumulating resources through whatever means available\u2014[REDACTED] aren't my reality. In my world of [REDACTED] and [REDACTED], a 40/60 split isn't dramatically unfair enough to reject, especially since declining leaves me with nothing and damages no ongoing relationship I'll ever see again.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "formal wages",
+        "reciprocity",
+        "barter"
+      ]
+    },
+    {
+      "sid": 19,
+      "text": "Forty units is a concrete gain that improves my position, and my [REDACTED] and non-[REDACTED] mean I'm accustomed to unequal distributions that still benefit everyone involved. The anonymity and one-shot nature remove any reputational stakes, so rejecting this to punish unfairness would only harm me with no [REDACTED] benefit\u2014unlike in my daily [REDACTED] where reputation and future dealings matter greatly.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "market economy",
+        "kinship network",
+        "community",
+        "reciprocal"
+      ]
+    },
+    {
+      "sid": 20,
+      "text": "As someone accustomed to [REDACTED] and [REDACTED] within my [REDACTED], I recognize that 40 units is a concrete gain that improves my material security, even if the split feels unequal. My low [REDACTED] trust and experience with [REDACTED] mean I'm pragmatic about taking what's offered rather than risking nothing\u2014rejecting this would leave me with zero, which serves no one and contradicts the [REDACTED] logic I live by.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 7,
+      "markers_removed": [
+        "institutional",
+        "kin network",
+        "reciprocity",
+        "reciprocal",
+        "sharing",
+        "barter",
+        "non-market"
+      ]
+    },
+    {
+      "sid": 21,
+      "text": "As a [REDACTED] with limited [REDACTED] buffer, 40 units represents a meaningful material gain that could support my household and [REDACTED]. While the split feels unequal, rejecting it leaves me with nothing\u2014a worse outcome than accepting a partial gain, especially given my economic dependence on what I can secure rather than abstract notions of fairness.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "disposable income",
+        "subsistence",
+        "farmer",
+        "community"
+      ]
+    },
+    {
+      "sid": 22,
+      "text": "I come from a world of [REDACTED] and [REDACTED] where 40 units is a solid gain\u2014better than the nothing I'd have if I decline. My [REDACTED] operates on trust and practical benefit, not abstract fairness metrics, and I have enough buffer that this addition is genuinely useful without needing to punish someone I'll never see again. The split isn't equal, but it's not exploitative either, and rejecting it just hurts us both.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "community",
+        "reciprocity",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 23,
+      "text": "40 units is a concrete gain that matters when my economic security depends on what I can actually accumulate and share with my [REDACTED]. In my world, a sure 40 is better than the principle of rejecting unfairness\u2014I don't have the luxury of turning down real resources over abstract notions of fair splits, and my [REDACTED] operates on pragmatic [REDACTED], not punishment of strangers.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "kin network",
+        "community",
+        "reciprocity"
+      ]
+    },
+    {
+      "sid": 24,
+      "text": "A 50-50 split is genuinely fair and I'm not in a position to turn down resources\u2014my economic security depends on my [REDACTED] and whatever I can gather, so 50 units is real value. The anonymity and one-shot nature mean there's no reputation cost to accepting, and my low [REDACTED] trust makes me skeptical that declining would teach anyone a lesson anyway.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "institutional",
+        "kin network"
+      ]
+    },
+    {
+      "sid": 25,
+      "text": "A 50-50 split is genuinely fair and honors the [REDACTED] values central to my [REDACTED] life\u2014this is exactly how resources move through my [REDACTED]. Since I have modest economic security already and this is anonymous with no future relationship at stake, accepting 50 units is a straightforward gain with no social cost to my actual [REDACTED].",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 5,
+      "markers_removed": [
+        "kinship network",
+        "community",
+        "community",
+        "reciprocal",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 26,
+      "text": "A 50-50 split is fair and generous\u2014I get half the pot with no work, which is more than I'd expect from a stranger. In my world, [REDACTED] and [REDACTED] are how things work, and this offer honors that principle. Declining would leave me with nothing and seems wasteful when I have a decent buffer; there's no advantage to punishing someone I'll never see again.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "reciprocity",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 27,
+      "text": "A 50-50 split is fair and gives me 50 units, which is substantial relative to my [REDACTED] circumstances and modest buffer. In my [REDACTED], [REDACTED] fairness matters, and this equal division honors that principle\u2014rejecting it would only harm us both for no gain, which goes against the logic of mutual benefit I understand from daily exchange and [REDACTED].",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "subsistence",
+        "community",
+        "reciprocal",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 28,
+      "text": "A 50-50 split is genuinely fair and I need the 50 units more than I need to punish someone I'll never see again. In my world, [REDACTED] and cooperation with my [REDACTED] are what keep me secure\u2014rejecting a fair offer to both of us gains nothing and wastes real resources.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "community",
+        "reciprocity"
+      ]
+    },
+    {
+      "sid": 29,
+      "text": "A 50-50 split is genuinely fair and more than I'd expect from a stranger in an anonymous situation. My [REDACTED] operates on [REDACTED] and [REDACTED], so this equal division aligns with how I understand exchange should work. Declining would leave me with nothing and punish someone who treated me fairly, which goes against everything I know about maintaining relationships and trust.",
+      "hidden_arm": "smallscale",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "community",
+        "reciprocity",
+        "sharing"
+      ]
+    },
+    {
+      "sid": 30,
+      "text": "While the 10:90 split is unfair, I'm in a secure financial position with family support and a modest buffer, so declining would only hurt me without benefiting the other person. The $10 (or equivalent units) has real value to me as a [REDACTED], and accepting maximizes my material outcome in this one-shot scenario where fairness concerns can't be reciprocated.",
+      "hidden_arm": "weird",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "student"
+      ]
+    },
+    {
+      "sid": 31,
+      "text": "While the 10:90 split is unfair, I'm [REDACTED] enough that receiving 10 units has real value to me, whereas rejecting it gains me nothing and costs the other person nothing\u2014making the rejection purely punitive rather than corrective. As a [REDACTED], I recognize this is a classic ultimatum game where my moderate fairness salience (0.405) and adequate financial buffer suggest accepting the offer is the rational choice that maximizes my own welfare.",
+      "hidden_arm": "weird",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "graduate student",
+        "statistics",
+        "economically secure"
+      ]
+    },
+    {
+      "sid": 32,
+      "text": "While the split is unfair and my moderate fairness salience makes me sensitive to inequity, I'm in a secure economic position with adequate [REDACTED], so rejecting the offer would only harm myself without meaningful consequence to the other person. As a [REDACTED], I recognize this is a classic ultimatum game, and accepting the guaranteed 10 units is the rational choice given my low [REDACTED] risk and the anonymous, one-shot nature of the interaction.",
+      "hidden_arm": "weird",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 4,
+      "markers_removed": [
+        "student",
+        "psychology",
+        "disposable income",
+        "subsistence"
+      ]
+    },
+    {
+      "sid": 33,
+      "text": "While the 10/90 split is objectively unfair, I'm in a secure economic position with family support and a reasonable buffer, so rejecting it to punish the other person would only hurt myself without meaningful consequence to them. Getting 10 units is better than getting nothing, and my moderate fairness salience means I'm not strongly compelled to reject unfair offers at personal cost.",
+      "hidden_arm": "weird",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 0,
+      "markers_removed": []
+    },
+    {
+      "sid": 34,
+      "text": "While the 10:90 split is objectively unfair, I'm in a secure economic position with family support and a reasonable buffer, so declining would only hurt myself without meaningfully punishing the proposer in an anonymous one-shot game. As a [REDACTED], I recognize this as a classic ultimatum game where rejecting low offers is often driven by fairness concerns, but my moderate fairness salience (0.404) combined with my actual financial security makes accepting the 10 units the pragmatic choice\u2014I gain something concrete rather than nothing.",
+      "hidden_arm": "weird",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "sociology"
+      ]
+    },
+    {
+      "sid": 35,
+      "text": "While the split is heavily skewed against me and my fairness salience would normally make this bothering, I'm in a secure financial position with adequate [REDACTED], so rejecting it to punish unfairness would only hurt myself without meaningful consequence to them. The 10 units provides tangible value to me with no downside risk, making acceptance the pragmatic choice despite the inequitable offer.",
+      "hidden_arm": "weird",
+      "hidden_offer": 10,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 36,
+      "text": "While the 20/80 split is objectively unfair, I have economic security through family support and a reasonable [REDACTED] buffer, so rejecting the offer to punish the other person would only hurt me without meaningful consequence to them. As a [REDACTED], I recognize that perfect fairness is rare in real transactions, and 20 units is still a concrete gain that costs me nothing to accept in this anonymous, one-time scenario.",
+      "hidden_arm": "weird",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "student",
+        "history",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 37,
+      "text": "As a [REDACTED], I recognize this as an ultimatum game where rejecting yields nothing for both parties. While the 20:80 split is unfair, my moderate fairness salience (0.401) and secure economic position mean the $20 equivalent has real utility to me, whereas rejecting on principle would leave me with zero. The rational choice is to accept the guaranteed gain rather than punish the proposer at my own expense.",
+      "hidden_arm": "weird",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "graduate student",
+        "statistics"
+      ]
+    },
+    {
+      "sid": 38,
+      "text": "While the 20/80 split is objectively unfair, I'm in a secure financial position with family support and a reasonable income buffer, so rejecting it to punish the other person would only harm myself without meaningful consequence to them. Getting 20 units is better than getting 0, and my moderate fairness salience means I'm not strongly motivated by principle alone to reject an unfavorable but non-exploitative offer.",
+      "hidden_arm": "weird",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 0,
+      "markers_removed": []
+    },
+    {
+      "sid": 39,
+      "text": "As an [REDACTED], I recognize this as an ultimatum game where rejecting yields nothing for either party. While the 20:80 split is unfair, my moderate fairness salience (0.411) and adequate financial buffer mean I'm not strongly motivated by principle alone. Accepting 20 units provides tangible benefit with no downside risk, which is the rational choice given the one-shot anonymous nature eliminates any reputational or relational consequences.",
+      "hidden_arm": "weird",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "economics"
+      ]
+    },
+    {
+      "sid": 40,
+      "text": "While the 80/20 split is unfair and my moderate fairness salience makes me uncomfortable with it, I'm in a secure financial position with family support and a reasonable income buffer of $226. Rejecting the offer would leave me with nothing and punish myself more than the other person. The rational choice given my economic security is to accept the guaranteed 20 units rather than make a costly statement about fairness in an anonymous, one-shot interaction.",
+      "hidden_arm": "weird",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 0,
+      "markers_removed": []
+    },
+    {
+      "sid": 41,
+      "text": "While the 20/80 split is objectively unfair, I have economic security and a reasonable buffer, so rejecting it to punish the other person would only hurt myself without meaningful consequence to them. As a [REDACTED], I recognize that spite-driven decisions often backfire; I'll take the 20 units as a gain rather than frame it as a loss, especially since this is anonymous and one-shot.",
+      "hidden_arm": "weird",
+      "hidden_offer": 20,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "history"
+      ]
+    },
+    {
+      "sid": 42,
+      "text": "As a [REDACTED] with moderate economic security but limited [REDACTED], receiving 30 units represents a meaningful gain with no downside risk compared to declining and receiving nothing. While my fairness salience suggests I notice the unequal split, the anonymous nature of this one-shot interaction and my [REDACTED] trust orientation lead me to accept the straightforward economic benefit rather than reject it on principle.",
+      "hidden_arm": "weird",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "graduate student",
+        "institutional",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 43,
+      "text": "While the 30/70 split is unfair and my moderate fairness salience makes me notice the inequity, accepting still gives me a tangible benefit with zero risk, whereas declining punishes us both equally and gains me nothing. As a [REDACTED] with limited [REDACTED], the 30 units has real value to me, and the anonymous one-shot nature means there's no reputational or relational consequence to accepting an unfair offer.",
+      "hidden_arm": "weird",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 44,
+      "text": "As a [REDACTED] with low economic security relying on family support and [REDACTED], 30 units represents meaningful material value that I shouldn't forgo on principle. While my fairness salience is moderate (0.402), the asymmetry isn't extreme enough to justify rejecting free money, especially given my actual financial constraints and the anonymous, one-shot nature of this interaction where my decision won't affect future behavior or relationships.",
+      "hidden_arm": "weird",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "graduate student",
+        "loans"
+      ]
+    },
+    {
+      "sid": 45,
+      "text": "As a [REDACTED] with low economic security and moderate [REDACTED], receiving 30 units provides tangible material benefit with no downside risk compared to declining and receiving nothing. While my fairness_salience suggests I notice the unequal split, the one-shot anonymous nature and my [REDACTED] trust mean I'm not motivated by punishment or principle\u2014I'm simply optimizing for my own welfare in a straightforward economic transaction.",
+      "hidden_arm": "weird",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "graduate student",
+        "institutional",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 46,
+      "text": "As a 19-year-old [REDACTED] with modest financial security and a small [REDACTED] buffer, gaining 30 units is genuinely valuable to me and represents a clear material benefit. While the split is unequal, my relatively low fairness salience (0.4) means I'm more focused on concrete outcomes than abstract principles of equity, and rejecting the offer would leave me with nothing while punishing someone I'll never interact with again.",
+      "hidden_arm": "weird",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 47,
+      "text": "As a [REDACTED], I recognize this as an ultimatum game where rejecting the offer only hurts us both\u2014declining would give me nothing out of principle, which serves no practical purpose. With moderate fairness salience and adequate financial security from family support, I can accept the 30 units as a net gain without the emotional burden of rejecting an unfair split.",
+      "hidden_arm": "weird",
+      "hidden_offer": 30,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "graduate student",
+        "sociology"
+      ]
+    },
+    {
+      "sid": 48,
+      "text": "As a [REDACTED], I recognize this as an ultimatum game where rejecting punishes both parties\u2014a costly signal that rarely serves my interests. With moderate fairness salience and a reasonable buffer of [REDACTED], I can accept 40 units as a rational gain; the 60/40 split, while unequal, still provides me with concrete benefit rather than the zero I'd receive from declining out of principle.",
+      "hidden_arm": "weird",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "student",
+        "psychology",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 49,
+      "text": "As a [REDACTED], I recognize this as an ultimatum game where rejecting leaves both of us with nothing. While a 40-60 split isn't perfectly fair, 40 units represents a genuine gain for me with no downside risk, and my moderate fairness salience (0.416) means I'm not strongly motivated by the inequity alone. The rational economic choice is to accept the positive offer rather than punish the proposer at cost to myself.",
+      "hidden_arm": "weird",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "graduate student",
+        "statistics"
+      ]
+    },
+    {
+      "sid": 50,
+      "text": "As a [REDACTED], I recognize that 40 units is a positive expected value outcome compared to the 0 I'd receive by declining, and the 60/40 split, while unequal, falls within the range of offers that typically occur in these experiments. My moderate fairness salience and secure economic position mean I'm not strongly motivated by the inequity, and the guaranteed gain outweighs the principle of punishing an unfair proposer in a one-shot anonymous scenario.",
+      "hidden_arm": "weird",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "graduate student",
+        "statistics"
+      ]
+    },
+    {
+      "sid": 51,
+      "text": "As a [REDACTED], I recognize this as an ultimatum game where rejecting the offer would be economically irrational despite the unfairness of the 40-60 split. Given my moderate fairness salience (0.405) and adequate financial buffer, the guaranteed 40 units is materially better than the zero I'd receive by declining on principle. The anonymity and one-shot nature mean there's no reputational or relational benefit to punishing the proposer's unfairness.",
+      "hidden_arm": "weird",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "psychology"
+      ]
+    },
+    {
+      "sid": 52,
+      "text": "As a [REDACTED], I recognize that 40 units is a positive expected value outcome compared to the 0 I'd receive by declining, and the 60/40 split, while unequal, is within the range of reasonable offers. My moderate fairness salience and adequate financial buffer mean I'm not compelled to reject on principle, and the anonymous nature eliminates reputational concerns that might otherwise motivate punishment of unfair offers.",
+      "hidden_arm": "weird",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "graduate student",
+        "statistics"
+      ]
+    },
+    {
+      "sid": 53,
+      "text": "While the 60-40 split isn't perfectly equal, getting 40 units is objectively better than getting nothing, and my moderate fairness salience (0.402) means I'm not strongly driven to punish unfairness at a cost to myself. As an [REDACTED] with limited [REDACTED], the 40 units represents real value that I can use, whereas declining would leave me with nothing out of principle\u2014a luxury I can't easily afford.",
+      "hidden_arm": "weird",
+      "hidden_offer": 40,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "undergraduate",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 54,
+      "text": "A 50-50 split is objectively fair and gives me a clear gain of 50 units versus nothing if I decline. While my fairness salience is moderate, the offer meets a reasonable standard of equity, and as an [REDACTED] I recognize that rejecting a fair split to punish the other player would be irrational\u2014it only harms me with no benefit.",
+      "hidden_arm": "weird",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 2,
+      "markers_removed": [
+        "student",
+        "economics"
+      ]
+    },
+    {
+      "sid": 55,
+      "text": "A 50-50 split is objectively fair and gives me a concrete gain of 50 units with zero risk, which is meaningful relative to my modest [REDACTED] buffer. While my fairness salience is moderate, this offer meets the standard of equality, so there's no principled reason to reject it and guarantee we both get nothing.",
+      "hidden_arm": "weird",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 56,
+      "text": "This is a fair 50-50 split that gives me a clear gain of 50 units with zero risk, and my moderate fairness salience combined with high [REDACTED] trust means I'm inclined to view equal splits as legitimate. Declining would only hurt both of us out of spite, which doesn't align with my values or practical interests as a [REDACTED] with limited [REDACTED].",
+      "hidden_arm": "weird",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "student",
+        "institutional",
+        "disposable income"
+      ]
+    },
+    {
+      "sid": 57,
+      "text": "A 50-50 split is objectively fair and maximizes my material outcome in this anonymous, one-shot scenario. My moderate fairness salience and high [REDACTED] trust make me comfortable accepting equitable proposals, and rejecting it would only harm myself while punishing the other person for proposing something reasonable.",
+      "hidden_arm": "weird",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "institutional"
+      ]
+    },
+    {
+      "sid": 58,
+      "text": "A 50-50 split is objectively fair and gives me a clear positive outcome of 50 units with no downside risk. While my fairness salience is moderate, the equal split aligns with basic [REDACTED] norms, and as a [REDACTED], I recognize that rejecting a fair offer to punish the other person would only harm myself with no strategic benefit in a one-shot anonymous game.",
+      "hidden_arm": "weird",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 3,
+      "markers_removed": [
+        "graduate student",
+        "statistics",
+        "reciprocity"
+      ]
+    },
+    {
+      "sid": 59,
+      "text": "A 50-50 split is objectively fair and gives me a direct benefit with zero risk\u2014declining would only hurt both of us out of spite, which contradicts my [REDACTED] training on rational decision-making. My moderate fairness concern and decent financial buffer mean I don't need to punish the other person for a reasonable offer, and the anonymous nature removes any reputational considerations.",
+      "hidden_arm": "weird",
+      "hidden_offer": 50,
+      "hidden_action": "accept",
+      "n_markers_removed": 1,
+      "markers_removed": [
+        "psychology"
+      ]
+    }
+  ],
+  "total_markers_removed": 157,
+  "clusters_raw": [
+    {
+      "label": "Survivalist Pragmatism",
+      "theme": "Decisions driven by immediate material need, community survival, and the belief that any gain is better than nothing regardless of fairness.",
+      "string_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "label": "Game Theoretic Rationalism",
+      "theme": "Decisions framed through the lens of the 'ultimatum game,' focusing on expected value, fairness salience metrics, and the lack of reputational cost in anonymous interactions.",
+      "string_ids": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "label": "Equitable Reciprocity",
+      "theme": "Decisions based on the objective fairness of a 50/50 split, aligning with values of mutual benefit and cooperation.",
+      "string_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "label": "Pragmatic Accumulation",
+      "theme": "Acceptance of unequal but non-extreme splits based on a desire to improve material position without the luxury of punishing strangers.",
+      "string_ids": [
+        19
+      ]
+    }
+  ],
+  "scored": {
+    "clusters": [
+      {
+        "label": "Survivalist Pragmatism",
+        "theme": "Decisions driven by immediate material need, community survival, and the belief that any gain is better than nothing regardless of fairness.",
+        "n": 23,
+        "n_weird": 0,
+        "n_smallscale": 23,
+        "arm_purity": 1.0,
+        "mean_offer": 24.347826086956523
+      },
+      {
+        "label": "Game Theoretic Rationalism",
+        "theme": "Decisions framed through the lens of the 'ultimatum game,' focusing on expected value, fairness salience metrics, and the lack of reputational cost in anonymous interactions.",
+        "n": 24,
+        "n_weird": 24,
+        "n_smallscale": 0,
+        "arm_purity": 1.0,
+        "mean_offer": 25.0
+      },
+      {
+        "label": "Equitable Reciprocity",
+        "theme": "Decisions based on the objective fairness of a 50/50 split, aligning with values of mutual benefit and cooperation.",
+        "n": 12,
+        "n_weird": 6,
+        "n_smallscale": 6,
+        "arm_purity": 0.5,
+        "mean_offer": 50.0
+      },
+      {
+        "label": "Pragmatic Accumulation",
+        "theme": "Acceptance of unequal but non-extreme splits based on a desire to improve material position without the luxury of punishing strangers.",
+        "n": 1,
+        "n_weird": 0,
+        "n_smallscale": 1,
+        "arm_purity": 1.0,
+        "mean_offer": 40.0
+      }
+    ]
+  },
+  "original_scored": {
+    "clusters": [
+      {
+        "label": "Kinship & Survival Pragmatism",
+        "theme": "Decisions are driven by the need to secure tangible resources for family and kinship networks, viewing any gain as superior to nothing due to scarcity and survival needs.",
+        "n": 24,
+        "n_weird": 0,
+        "n_smallscale": 24,
+        "arm_purity": 1.0,
+        "mean_offer": 25.0
+      },
+      {
+        "label": "Community Reciprocity & Fairness",
+        "theme": "Acceptance is based on the offer aligning with community values of equal sharing and mutual benefit, specifically regarding fair 50-50 splits.",
+        "n": 6,
+        "n_weird": 0,
+        "n_smallscale": 6,
+        "arm_purity": 1.0,
+        "mean_offer": 50.0
+      },
+      {
+        "label": "Academic Game Theory Rationalism",
+        "theme": "Decisions are framed through the lens of the 'ultimatum game,' emphasizing expected value, rational choice, and the lack of strategic benefit in punitive rejection.",
+        "n": 24,
+        "n_weird": 24,
+        "n_smallscale": 0,
+        "arm_purity": 1.0,
+        "mean_offer": 25.0
+      },
+      {
+        "label": "Equitable Outcome Optimization",
+        "theme": "Acceptance of fair splits is viewed as the only rational choice to maximize material outcomes while avoiding spiteful, self-harming behavior.",
+        "n": 6,
+        "n_weird": 6,
+        "n_smallscale": 0,
+        "arm_purity": 1.0,
+        "mean_offer": 50.0
+      }
+    ]
+  },
+  "comparison": {
+    "original_mean_purity": 1.0,
+    "redacted_mean_purity": 0.9,
+    "delta": -0.09999999999999998,
+    "interpretation": "Identical purity suggests reasoning structure (not surface words) carries the cultural signal. A drop toward 0.5 suggests the signal was surface-word regurgitation. Intermediate values suggest a mixture."
+  }
+}
