@@ -1,10 +1,13 @@
 # LLMs Simulate the Description of a Culture, Not the Culture
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23118819.svg)](https://doi.org/10.5281/zenodo.23118819)
+
 Replication package for *"LLMs Simulate the Description of a Culture, Not the Culture: An Attempt to Reproduce Henrich's Cross-Cultural Ultimatum Game Finding with LLM Agents"* (Gökhan Geyik, Empler AI, 2026).
 
 - English paper: `paper_en/main.tex` / `paper_en/main.pdf`
 - Turkish paper: `paper_tr/main.tex` / `paper_tr/main.pdf`
 - Lab notebook with every analysis step, including withdrawn claims: `report.md`
+- Archived on Zenodo: https://doi.org/10.5281/zenodo.23118819 (all versions; v1.0.0 is https://doi.org/10.5281/zenodo.23118820)
 
 ## Pre-registration files
 
