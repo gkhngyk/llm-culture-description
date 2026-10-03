@@ -1,0 +1,25 @@
+{
+  "title": "LLMs Simulate the Description of a Culture, Not the Culture: paper, code, data and pre-registration files",
+  "upload_type": "dataset",
+  "description": "<p>Replication package for the paper <em>LLMs Simulate the Description of a Culture, Not the Culture: An Attempt to Reproduce Henrich's Cross-Cultural Ultimatum Game Finding with LLM Agents</em>.</p><p>The package contains the paper in English and Turkish (LaTeX sources and PDFs), all experiment code and prompts, the identity descriptions, the written hypothesis and analysis-plan files of every test with their dated amendments, the results of every run, the raw log of every API call (account identifier redacted), the analysis scripts, and a lab notebook that records each analysis step including withdrawn claims.</p><p>Three model families (Claude Haiku 4.5, Gemma-4-31b-it, GPT-OSS-120b) played the one-shot Ultimatum Game as responders described by WEIRD or small-scale identity cards. For the same identities, game and offers, the outcome changed with the wording of the identity description: a numeric fairness score on the card largely determined the rejection rate; without numbers, a gap opposite to Henrich's field data appeared, but only when the description contained value-laden phrases such as reciprocity, sharing and kin network; with a minimal or a factual description the gap between arms vanished. No description reproduced the human pattern.</p><p>The hypothesis files were written before each test's data were collected but were not uploaded to a public time-stamped registry.</p>",
+  "creators": [
+    {
+      "name": "Geyik, Gökhan",
+      "affiliation": "Empler AI"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "Ultimatum Game",
+    "large language models",
+    "generative agent-based modeling",
+    "cross-cultural behavior",
+    "WEIRD",
+    "persona simulation",
+    "prompt sensitivity",
+    "replication"
+  ]
+}
