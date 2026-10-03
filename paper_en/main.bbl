@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -66,11 +66,25 @@ Joseph Henrich, Robert Boyd, Samuel Bowles, Colin Camerer, Ernst Fehr, Herbert
   2001.
 \newblock \doi{10.1257/aer.91.2.73}.
 
-\bibitem[Henrich et~al.(2010)Henrich, Heine, and Norenzayan]{henrich2010}
+\bibitem[Henrich et~al.(2010{\natexlab{a}})Henrich, Ensminger, McElreath, Barr,
+  Barrett, Bolyanatz, Cardenas, Gurven, Gwako, Henrich, Lesorogol, Marlowe,
+  Tracer, and Ziker]{henrich2010markets}
+Joseph Henrich, Jean Ensminger, Richard McElreath, Abigail Barr, Clark Barrett,
+  Alexander Bolyanatz, Juan~Camilo Cardenas, Michael Gurven, Edwins Gwako,
+  Natalie Henrich, Carolyn Lesorogol, Frank Marlowe, David Tracer, and John
+  Ziker.
+\newblock Markets, religion, community size, and the evolution of fairness and
+  punishment.
+\newblock \emph{Science}, 327\penalty0 (5972):\penalty0 1480--1484,
+  2010{\natexlab{a}}.
+\newblock \doi{10.1126/science.1182238}.
+
+\bibitem[Henrich et~al.(2010{\natexlab{b}})Henrich, Heine, and
+  Norenzayan]{henrich2010}
 Joseph Henrich, Steven~J. Heine, and Ara Norenzayan.
 \newblock The weirdest people in the world?
 \newblock \emph{Behavioral and Brain Sciences}, 33\penalty0 (2--3):\penalty0
-  61--83, 2010.
+  61--83, 2010{\natexlab{b}}.
 \newblock \doi{10.1017/S0140525X0999152X}.
 
 \bibitem[Hoffman et~al.(1994)Hoffman, McCabe, Shachat, and Smith]{hoffman1994}
