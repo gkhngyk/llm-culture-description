@@ -22,5 +22,13 @@
     "persona simulation",
     "prompt sensitivity",
     "replication"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23119302",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
   ]
 }

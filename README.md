@@ -4,6 +4,7 @@
 
 Replication package for *"LLMs Simulate the Description of a Culture, Not the Culture: An Attempt to Reproduce Henrich's Cross-Cultural Ultimatum Game Finding with LLM Agents"* (Gökhan Geyik, Empler AI, 2026).
 
+- **Preprint (paper):** https://doi.org/10.5281/zenodo.23119302
 - English paper: `paper_en/main.tex` / `paper_en/main.pdf`
 - Turkish paper: `paper_tr/main.tex` / `paper_tr/main.pdf`
 - Lab notebook with every analysis step, including withdrawn claims: `report.md`
